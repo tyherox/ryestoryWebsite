@@ -1,0 +1,19 @@
+/*Global CSS declarations*/
+*{
+
+}
+
+body {
+    background-color: green;
+}
+
+h1, h2, p, ul, li {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.masterContainer{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background-color: #5D4037;
+}

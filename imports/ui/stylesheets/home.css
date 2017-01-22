@@ -1,0 +1,62 @@
+.home_headerArea{
+    color: White;
+    width: 100%;
+    border: none;
+}
+
+.home_headerText{
+    color: White;
+    text-align: center;
+}
+
+.home_landingPage{
+    background-color: #FFFFFF;
+}
+
+.home_intro{
+    text-align: center;
+}
+
+.home_features{
+    text-align: center;
+}
+
+.home_iconLayout{
+    height: 75px;
+    background: url('/assets/layout.png') no-repeat center center;
+    background-size: contain;
+}
+
+.home_iconWidget{
+    height: 75px;
+    background: url('/assets/widgets.png') no-repeat center center;
+    background-size: contain;
+}
+
+.home_iconSheet{
+    height: 75px;
+    background: url('/assets/sheets.png') no-repeat center center;
+    background-size: contain;
+}
+
+.home_iconDescriptions{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.home_iconLogo{
+    height: 150px;
+    background: url('/assets/ryeLogo.png') no-repeat center center;
+    background-size: contain;
+}
+
+.home_about{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.home_subscribe{
+    color: white;
+    background-color: #454545;
+    height: 250px;
+}

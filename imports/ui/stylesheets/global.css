@@ -8,8 +8,13 @@ body {
     background-color: green;
 }
 
+@font-face {
+    font-family: montserrat;
+    src: url(/montserrat/Montserrat-Regular.otf);
+}
+
 h1, h2, p, ul, li {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: montserrat;
 }
 
 .masterContainer{

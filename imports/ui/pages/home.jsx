@@ -15,7 +15,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <div ho>
+            <div>
                 <div className = 'home_headerArea'>
                     <div className = 'home_headerText'>
                         <Jumbotron>
@@ -64,7 +64,7 @@ export default class App extends Component {
                             <div className = "home_features">
                                 <Col md={12}>
                                     <h1><b>Features</b></h1>
-                                    <div className = 'buffer'/>
+                                    <div className = 'bufferMega'/>
                                 </Col>
                                 <Col md={4}>
                                     <div className = 'home_iconLayout'/>

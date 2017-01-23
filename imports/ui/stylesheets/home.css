@@ -7,6 +7,8 @@
 .home_headerText{
     color: White;
     text-align: center;
+    line-height: normal;
+    margin: 0!important;
 }
 
 .home_landingPage{
@@ -14,11 +16,12 @@
 }
 
 .home_intro{
-    text-align: center;
 }
 
 .home_features{
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .home_iconLayout{
@@ -46,17 +49,71 @@
 
 .home_iconLogo{
     height: 150px;
-    background: url('/assets/ryeLogo.png') no-repeat center center;
+    background: url('/assets/logoIcon.png') no-repeat center center;
     background-size: contain;
+    margin: 10px;
 }
 
-.home_about{
-    padding-top: 15px;
-    padding-bottom: 15px;
+.home_aboutDescription{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.vCenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 .home_subscribe{
     color: white;
     background-color: #454545;
-    height: 250px;
+    text-align: center;
+    height: auto;
+}
+
+
+.buffer{
+    padding: 15px;
+}
+
+.bufferMega{
+    padding: 30px;
+}
+
+.home_input{
+    background: transparent;
+    outline: none;
+    border-color: transparent;
+    border-bottom-color: white;
+    border-width: thin;
+    width: 50%;
+    min-width: 100px;
+    max-width: 350px;
+}
+
+.home_emailButton{
+    clear: both;
+    font-size: 125%;
+}
+
+.rye_button{
+    border: solid;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.rye_button:hover{
+    background-color: white;
+    color: #5D4037;
+    border-color: white;
 }

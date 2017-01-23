@@ -24,10 +24,10 @@ export default class App extends Component {
             <div className = "masterContainer">
                 <NavbarInstance />
                 {this.props.children}
-                <Panel className = 'footer'>
-                    <h3 className = 'footerLogo'>Ryestory</h3>
-                    <p className = 'footerContact'>Contact us</p>
-                </Panel>
+                <div className = 'footer'>
+                    <div className = 'footerLogo'></div>
+                    <a className = 'footerContact' href = 'mailto:andre.kim@ryestory.com'>Contact us: andre.kim@ryestory.com</a>
+                </div>
             </div>
         );
     }
@@ -41,14 +41,13 @@ class NavbarInstance extends Component{
 
     render(){
         return(
-            <Navbar collapseOnSelect fluid>
+            <Navbar>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <LinkContainer to="/">
-                            <a>Ryestory</a>
+                            <a><i className="navLogo"></i></a>
                         </LinkContainer>
                     </Navbar.Brand>
-                    <Navbar.Toggle />
                 </Navbar.Header>
             </Navbar>
         );

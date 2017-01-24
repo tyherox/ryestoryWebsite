@@ -41,15 +41,9 @@ class NavbarInstance extends Component{
 
     render(){
         return(
-            <Navbar>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <LinkContainer to="/">
-                            <a><i className="navLogo"></i></a>
-                        </LinkContainer>
-                    </Navbar.Brand>
-                </Navbar.Header>
-            </Navbar>
+            <div className = 'nav'>
+                <div className = 'footerLogo'></div>
+            </div>
         );
     }
 }

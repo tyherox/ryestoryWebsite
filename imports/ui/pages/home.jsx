@@ -19,7 +19,7 @@ export default class App extends Component {
                 <div className = 'home_headerArea'>
                     <div className = 'home_headerText'>
                         <Jumbotron>
-                            <h1>Trestle</h1>
+                            <h1>TRESTLE</h1>
                             <br/>
                             <p>How do you organize your desk?</p>
                             <div className = 'buffer'/>
@@ -35,21 +35,23 @@ export default class App extends Component {
                                 <Grid>
                                     <div className = 'bufferMega'/>
                                     <Row bsClass = "vCenter">
-                                        <Col md = {6}> <div className = 'home_iconLogo'/> </Col>
+                                        <Col md = {6}>
+                                            <video width="100%" controls>
+                                                <source src="assets/Trestle-Teaser.mp4" type="video/mp4"/>
+                                            </video>
+                                        </Col>
                                         <Col md={6}>
                                             <div className = "home_intro">
                                                 <h1><b>TRESTLE?</b></h1>
                                                 <br/>
-                                                <h4> Trestle is a software that acts as your virtual desk. You get to craft your working space that arranged best for your working style.
+                                                <p> Trestle is a writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                                     <br/><br/>
                                                     Want to rearrange your layout? Drag and Drop!
                                                     Want tools? Open up the your widgets!
                                                     <br/><br/>
-                                                    Created it the way you want your desk to be.
-                                                </h4>
+                                                    You've never seen anything like this.
+                                                </p>
                                                 <br/><br/>
-                                                <p><b>See how it works!</b></p>
-                                                <Button> VIDEO </Button>
                                             </div>
                                         </Col>
                                     </Row>
@@ -71,14 +73,14 @@ export default class App extends Component {
                                     <br/>
                                     <div className = 'home_iconDescriptions'>
                                         <p><b>Customize your layout</b></p>
-                                        <p>Trestle lets you create the environment you need. Resizing, rearranging, and replacing widgets has become so easy.</p>
+                                        <p>Nothing is set in stone in Trestle, even the layout. Resize, rearrange, and replace widgets to construct the perfect environment.</p>
                                     </div>
                                 </Col>
                                 <Col md={4}>
                                     <div className = 'home_iconWidget'/>
                                     <br/>
                                     <div className = 'home_iconDescriptions'>
-                                        <p><b>Whatever widget you need</b></p>
+                                        <p><b>Delightful Widgets</b></p>
                                         <p>Need a dictionary? Need a task list? Trestle provides different types widgets that you need!</p>
                                     </div>
                                 </Col>
@@ -87,7 +89,7 @@ export default class App extends Component {
                                     <br/>
                                     <div className = 'home_iconDescriptions'>
                                         <p><b>Shiiit. So many Sheets</b></p>
-                                        <p>Open as many writing spaces as you need! Customize your sheets with the tools you need. By the way, Trestle also supports Markdown!</p>
+                                        <p>Open and customize as many writing spaces as you need! Multi-tasking has never been easier!</p>
                                     </div>
                                 </Col>
                             </div>
@@ -97,16 +99,22 @@ export default class App extends Component {
                     <div className = 'home_subscribe' ref = 'subscribe'>
 
                         <div className="bufferMega" />
+                        <div className="bufferMega" />
+                        <div className="bufferMega" />
                         <h1><b>Coming Soon!</b></h1>
                         <div className = 'buffer'/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
                               method="POST"
                               id="mG61Hd">
+                            <p><b>Subscribe to our email listing to be notified on the latest developments of Trestle!</b></p>
+                            <div className="bufferMega" />
                             <input type = "email" placeholder = "Email:" className = 'home_input' required></input>
                             <br/><br/>
-                            <button type="submit" className = 'home_emailButton rye_button'>Let me know when it's out!</button>
+                            <button type="submit" className = 'home_emailButton rye_button'>Sign me up!</button>
                         </form>
+                        <div className="bufferMega" />
+                        <div className="bufferMega" />
                         <div className="bufferMega" />
 
                     </div>

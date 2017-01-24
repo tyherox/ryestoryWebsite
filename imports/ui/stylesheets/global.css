@@ -10,6 +10,11 @@ body {
 
 @font-face {
     font-family: montserrat;
+    src: url(/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: montserrat-Bold;
     src: url(/montserrat/Montserrat-Regular.otf);
 }
 
@@ -22,4 +27,9 @@ h1, h2, p, ul, li {
     border: none;
     outline: none;
     background-color: #5D4037;
+}
+
+
+b{
+  font-family: montserrat-Bold;
 }

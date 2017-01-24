@@ -2,6 +2,9 @@
     color: White;
     width: 100%;
     border: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .home_headerText{
@@ -9,6 +12,7 @@
     text-align: center;
     line-height: normal;
     margin: 0!important;
+    align-self: center;
 }
 
 .home_landingPage{
@@ -117,4 +121,8 @@
     background-color: white;
     color: #5D4037;
     border-color: white;
+}
+
+.home_landingPage p{
+    font-size: 125%;
 }

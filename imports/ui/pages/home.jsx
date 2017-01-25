@@ -65,7 +65,7 @@ export default class App extends Component {
                         <Row className="show-grid">
                             <div className = "home_features">
                                 <Col md={12}>
-                                    <h1><b>Features</b></h1>
+                                    <h1><b>FEATURES</b></h1>
                                     <div className = 'bufferMega'/>
                                 </Col>
                                 <Col md={4}>
@@ -101,7 +101,7 @@ export default class App extends Component {
                         <div className="bufferMega" />
                         <div className="bufferMega" />
                         <div className="bufferMega" />
-                        <h1><b>Coming Soon!</b></h1>
+                        <h1><b>COMMING SOON!</b></h1>
                         <div className = 'buffer'/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"

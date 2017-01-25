@@ -61,6 +61,7 @@
 .home_aboutDescription{
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     float: none;
 }
 
@@ -112,9 +113,9 @@
     -o-transition: all .3s;
     transition: all .3s;
     text-transform: uppercase;
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .rye_button:hover{

@@ -13,9 +13,17 @@ export default class App extends Component {
         Scroll.animateScroll.scrollTo(this.refs.subscribe.offsetTop);
     }
 
+    handleSubmit() {
+        test = ReactDOM.findDOMNode(this.refs.submitButton);
+        test.textContent = "Thank you for subscribing!";
+        test.style.border = 'none';
+        test.disabled = true;
+    }
+
     render() {
         return (
             <div>
+                <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
                 <div className = 'home_headerArea'>
                     <div className = 'home_headerText'>
                         <Jumbotron>
@@ -111,7 +119,7 @@ export default class App extends Component {
                             <div className="bufferMega" />
                             <input type = "email" placeholder = "Email:" className = 'home_input' required></input>
                             <br/><br/>
-                            <button type="submit" className = 'home_emailButton rye_button'>Sign me up!</button>
+                            <button type="submit" className = 'home_emailButton rye_button' ref="submitButton">Sign me up!</button>
                         </form>
                         <div className="bufferMega" />
                         <div className="bufferMega" />

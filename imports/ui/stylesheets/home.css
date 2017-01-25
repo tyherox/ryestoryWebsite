@@ -101,6 +101,7 @@
     width: 50%;
     min-width: 100px;
     max-width: 350px;
+    font-size: 125%;
 }
 
 .home_emailButton{
@@ -123,7 +124,7 @@
     padding-left: 30px;
 }
 
-.rye_button:hover{
+.rye_button:hover:enabled{
     background-color: white;
     color: #5D4037;
     border-color: white;
@@ -131,4 +132,8 @@
 
 .home_landingPage p{
     font-size: 125%;
+}
+
+.ghost{
+    display: none;
 }

@@ -58,6 +58,11 @@
     margin: 10px;
 }
 
+.home_about{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .home_aboutDescription{
     display: inline-block;
     vertical-align: middle;

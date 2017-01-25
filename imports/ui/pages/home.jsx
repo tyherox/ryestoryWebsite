@@ -101,7 +101,7 @@ export default class App extends Component {
                         <div className="bufferMega" />
                         <div className="bufferMega" />
                         <div className="bufferMega" />
-                        <h1><b>COMMING SOON!</b></h1>
+                        <h1><b>COMING SOON!</b></h1>
                         <div className = 'buffer'/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
@@ -121,16 +121,19 @@ export default class App extends Component {
                     <Grid>
                         <div className = 'bufferMega'/>
                         <Row bsClass = "vCenter">
-                            <Col md = {2}> <div className = 'home_iconLogo'/> </Col>
-                            <Col md={10}>
-                                <div className = 'home_aboutDescription'>
-                                    <h1><b>WHO ARE WE?</b></h1>
-                                    <br/>
-                                    <p>Hi, we’re Ryestory, a small and cozy team based in South Korea. We aspire to make intuitive software that encourages individuality and unique personality.
+                            <div className="home_about">
+                                <Col md = {2}> <div className = 'home_iconLogo'/> </Col>
+                                <Col md={10}>
+                                    <div className = 'home_aboutDescription'>
+                                        <h1><b>WHO ARE WE?</b></h1>
+                                        <br/>
+                                        <p>Hi, we’re Ryestory, a small and cozy team based in South Korea. We aspire to make intuitive software that encourages individuality and unique personality.
 
-                                        How about you follow us on our Facebook Page!</p>
-                                </div>
-                            </Col>
+                                            How about you follow us on our <a href="https://www.facebook.com/StoryWithRye/">Facebook Page</a>!
+                                        </p>
+                                    </div>
+                                </Col>
+                            </div>
                         </Row>
                         <div className = 'bufferMega'/>
                     </Grid>

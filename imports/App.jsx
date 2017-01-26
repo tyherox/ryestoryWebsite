@@ -3,9 +3,6 @@
  */
 
 import React, { Component, PropTypes } from 'react';
-import { Router, Route, IndexRoute, IndexLink, Link } from 'react-router'
-import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Panel} from 'react-bootstrap'
-import {LinkContainer} from 'react-router-bootstrap'
 
 import'./ui/stylesheets/navBar.css'
 import './ui/stylesheets/global.css'

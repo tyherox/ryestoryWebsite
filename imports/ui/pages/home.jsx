@@ -19,6 +19,18 @@ export default class App extends Component {
         var submitButton = ReactDOM.findDOMNode(this.refs.submitButton);
         submitButton.textContent = "Thank you for subscribing!";
         submitButton.style.border = 'none';
+        submitButton.style.color = 'white';
+
+        var submission = ReactDOM.findDOMNode(this.refs.submission);
+        submission.style.display = 'none';
+        submission.disabled = true;
+    }
+
+    showProgress(){
+        console.log("SHOWING");
+        var submitButton = ReactDOM.findDOMNode(this.refs.submitButton);
+        submitButton.textContent = "Submitting...!";
+        submitButton.style.color = 'gray';
         submitButton.disabled = true;
     }
 
@@ -86,7 +98,7 @@ export default class App extends Component {
                                     <br/>
                                     <div className = 'home_iconDescriptions'>
                                         <p><b>Customize your layout</b></p>
-                                        <p>Nothing is set in stone in Trestle, even the layout. Resize, rearrange, and replace widgets to construct the perfect environment.</p>
+                                        <p>Nothing is set in stone in Trestle, even the layout. Resize, rearrange, and replace widgets to construct the perfect writing environment.</p>
                                     </div>
                                 </Col>
                                 <Col mdHidden>
@@ -122,10 +134,17 @@ export default class App extends Component {
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
                               method="POST"
-                              id="mG61Hd">
+                              id="mG61Hd"
+                              onSubmit={this.showProgress.bind(this)}>
                             <p><b>Subscribe to our email listing to be notified on the latest developments of Trestle!</b></p>
                             <Buffer size ="30"/>
-                            <input type="email" placeholder="Email" className="home_input" name="entry.2113626383" id="entry.2113626383"required/>
+                            <input type="email"
+                                   placeholder="Email"
+                                   className="home_input"
+                                   name="entry.2113626383"
+                                   id="entry.2113626383"
+                                   ref="submission"
+                                   required/>
                             <br/><br/>
                             <button type="submit" className = 'home_emailButton rye_button' ref="submitButton">Sign me up!</button>
                         </form>
@@ -140,7 +159,7 @@ export default class App extends Component {
                                     <div className = 'home_aboutDescription'>
                                         <h1><b>WHO ARE WE?</b></h1>
                                         <br/>
-                                        <p>Hi, we’re Ryestory, a small and cozy team based in South Korea. We aspire to make intuitive software that encourages individuality and unique personality.
+                                        <p>Hi, we’re Ryestory, a small and cozy team based in South Korea. We aspire to make intuitive software that encourage individuality and unique personalities.
 
                                             How about you follow us on our <a href="https://www.facebook.com/StoryWithRye/">Facebook Page</a>!
                                         </p>

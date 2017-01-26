@@ -96,7 +96,7 @@ export default class App extends Component {
                                     <div className = 'home_iconSheet'/>
                                     <br/>
                                     <div className = 'home_iconDescriptions'>
-                                        <p><b>Shiiit. So many Sheets</b></p>
+                                        <p><b>So many Sheets</b></p>
                                         <p>Open and customize as many writing spaces as you need! Multi-tasking has never been easier!</p>
                                     </div>
                                 </Col>

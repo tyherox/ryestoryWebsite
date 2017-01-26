@@ -86,6 +86,9 @@ export default class App extends Component {
                                         <p>Nothing is set in stone in Trestle, even the layout. Resize, rearrange, and replace widgets to construct the perfect environment.</p>
                                     </div>
                                 </Col>
+                                <Col mdHidden>
+                                    <Buffer/>
+                                </Col>
                                 <Col md={4}>
                                     <div className = 'home_iconWidget'/>
                                     <br/>
@@ -93,6 +96,9 @@ export default class App extends Component {
                                         <p><b>Delightful Widgets</b></p>
                                         <p>Need a dictionary? Need a task list? Trestle provides different types widgets that you need!</p>
                                     </div>
+                                </Col>
+                                <Col mdHidden>
+                                    <Buffer/>
                                 </Col>
                                 <Col md={4}>
                                     <div className = 'home_iconSheet'/>

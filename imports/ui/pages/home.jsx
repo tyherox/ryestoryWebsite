@@ -116,7 +116,7 @@ export default class App extends Component {
                         <Buffer size ="30"/>
                     </Grid>
                     <div className = 'home_subscribe' ref = 'subscribe'>
-                        <Buffer size ="30"/>
+                        <Buffer size ="50"/>
                         <h1><b>COMING SOON!</b></h1>
                         <Buffer mega />
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"

@@ -65,7 +65,7 @@ export default class App extends Component {
                                             </div>
                                         </Col>
                                     </Row>
-                                    <Buffer size ="30"/>
+                                    <Buffer size ="45"/>
                                 </Grid>
                             </Col>
                         </Row>

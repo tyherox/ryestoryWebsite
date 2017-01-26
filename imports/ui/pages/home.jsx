@@ -57,7 +57,7 @@ export default class App extends Component {
                                             <div className = "home_intro">
                                                 <h1><b>TRESTLE?</b></h1>
                                                 <br/>
-                                                <p> Trestle is a writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
+                                                <p> Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                                     <br/><br/>
                                                     Want to rearrange your layout? Drag and Drop!
                                                     Want tools? Open up the your widgets!

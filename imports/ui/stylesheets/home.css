@@ -60,6 +60,7 @@
 
 .home_about{
     width: 50%;
+    min-width: 300px;
     margin: 0 auto;
 }
 
@@ -81,6 +82,10 @@
     background-color: #454545;
     text-align: center;
     height: auto;
+
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .home_input{

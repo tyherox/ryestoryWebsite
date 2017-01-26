@@ -50,6 +50,9 @@ export default class App extends Component {
                                                 <source src="assets/Trestle-Teaser.mp4" type="video/mp4"/>
                                             </video>
                                         </Col>
+                                        <Col mdHidden>
+                                            <Buffer/>
+                                        </Col>
                                         <Col md={6}>
                                             <div className = "home_intro">
                                                 <h1><b>TRESTLE?</b></h1>
@@ -127,7 +130,6 @@ export default class App extends Component {
                             <button type="submit" className = 'home_emailButton rye_button' ref="submitButton">Sign me up!</button>
                         </form>
                         <Buffer size ="30"/>
-
                     </div>
                     <Grid>
                         <Buffer/>

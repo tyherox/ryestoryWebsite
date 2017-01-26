@@ -125,7 +125,7 @@ export default class App extends Component {
                               id="mG61Hd">
                             <p><b>Subscribe to our email listing to be notified on the latest developments of Trestle!</b></p>
                             <Buffer size ="30"/>
-                            <input type = "email" placeholder = "Email:" className = 'home_input' required></input>
+                            <input type="email" placeholder="Email" className="home_input" name="entry.2113626383" id="entry.2113626383"required/>
                             <br/><br/>
                             <button type="submit" className = 'home_emailButton rye_button' ref="submitButton">Sign me up!</button>
                         </form>

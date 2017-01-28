@@ -30,7 +30,7 @@ export default class App extends Component {
         console.log("SHOWING");
         var submitButton = ReactDOM.findDOMNode(this.refs.submitButton);
         submitButton.textContent = "Submitting...!";
-        submitButton.style.color = 'red';
+        submitButton.style.color = 'grey';
         submitButton.disabled = true;
     }
 

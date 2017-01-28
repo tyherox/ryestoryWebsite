@@ -91,7 +91,7 @@ export default class App extends Component {
                             <div className = "home_features">
                                 <Col md={12}>
                                     <h1><b>FEATURES</b></h1>
-                                    <Buffer size ="50"/>
+                                    <Buffer size ="30"/>
                                 </Col>
                                 <Col md={4}>
                                     <div className = 'home_iconLayout'/>

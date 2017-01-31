@@ -12,7 +12,7 @@ export default class App extends Component {
 
     toSubscribe() {
         Scroll.animateScroll.scrollTo(this.refs.subscribe.offsetTop);
-
+p
     }
 
     handleSubmit() {
@@ -72,7 +72,7 @@ export default class App extends Component {
                                                 <p> Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                                     <br/><br/>
                                                     Want to rearrange your layout? Drag and Drop!
-                                                    Want tools? Open up the your widgets!
+                                                    Want tools? Open up your widgets!
                                                     <br/><br/>
                                                     You've never seen anything like this.
                                                 </p>

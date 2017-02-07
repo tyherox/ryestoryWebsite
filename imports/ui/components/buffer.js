@@ -16,8 +16,22 @@
                 buffer.style.padding = 15 + 'px';
             }
         }
+<<<<<<< Updated upstream
 
         render() {
            return(<div ref="buffer"></div>)
         }
     }
+=======
+
+
+        var example_test;
+        var exampleTest;
+
+    }
+
+    render() {
+       return(<div ref="buffer" className="header-button-subscribe"></div>)
+    }
+}
+>>>>>>> Stashed changes

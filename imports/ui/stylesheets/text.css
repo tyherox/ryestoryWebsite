@@ -1,0 +1,25 @@
+
+.title{
+    text-align : center;
+    font-size: 370%;
+    font-weight: bold;
+}
+
+.titleDiscription{
+    font-size : 150%;
+}
+
+.subtitle{
+    text-align : center;
+    font-size : 300%;
+    font-weight:bold;
+}
+
+.discription{
+    font-size : 110%
+}
+
+.texttitle{
+    font-size : 200%;
+    font-weight:bold;
+}   

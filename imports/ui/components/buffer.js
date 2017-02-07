@@ -1,37 +1,22 @@
 
+import React, { Component, PropTypes } from 'react';
+import ReactDOM from 'react-dom';
 
-    import React, { Component, PropTypes } from 'react';
-    import ReactDOM from 'react-dom';
+export default class Buffer extends Component {
 
-    export default class Buffer extends Component {
+    componentDidMount(){
 
-        componentDidMount(){
+        var buffer = ReactDOM.findDOMNode(this.refs.buffer);
 
-            var buffer = ReactDOM.findDOMNode(this.refs.buffer);
-
-            if(this.props.size){
-                buffer.style.padding = this.props.size + 'px';
-            }
-            else {
-                buffer.style.padding = 15 + 'px';
-            }
+        if(this.props.size){
+            buffer.style.padding = this.props.size + 'px';
         }
-<<<<<<< Updated upstream
-
-        render() {
-           return(<div ref="buffer"></div>)
+        else {
+            buffer.style.padding = 15 + 'px';
         }
-    }
-=======
-
-
-        var example_test;
-        var exampleTest;
-
     }
 
     render() {
-       return(<div ref="buffer" className="header-button-subscribe"></div>)
+        return(<div ref="buffer"></div>)
     }
 }
->>>>>>> Stashed changes

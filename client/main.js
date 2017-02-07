@@ -5,14 +5,18 @@
 
   import App from '../imports/App.jsx';
   import Home from '../imports/ui/pages/home.jsx';
+  import Blog from '../imports/ui/pages/blog.jsx';
+  import ContactUs from '../imports/ui/pages/contactUs.jsx';
 
   Meteor.startup(() => {
     render(
   <Router history={browserHistory}>
-      <Route path="/" component={App}>
+    <Route path="/" component={App}>
       <IndexRoute component={Home}/>
-      </Route>
-      </Router>
+      <Route path="blog" component={Blog} />
+      <Route path="contact" component={ContactUs} />
+    </Route>
+  </Router>
       , document.getElementById('render-target')
   );
   });

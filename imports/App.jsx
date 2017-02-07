@@ -10,6 +10,8 @@ import './ui/stylesheets/bootstrap.css'
 import './ui/stylesheets/home.css'
 import './ui/stylesheets/footer.css'
 import './ui/stylesheets/text.css'
+import {Navbar, NavItem, MenuItem, Nav, NavDropdown} from 'react-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap'
 
 export default class App extends Component {
 
@@ -39,9 +41,28 @@ class NavbarInstance extends Component{
 
     render(){
         return(
-            <div className = 'nav'>
-                <div className = 'footerLogo'></div>
-            </div>
+
+        <Navbar inverse collapseOnSelect>
+            <Navbar.Header>
+                <Navbar.Brand>
+                    <div className = 'navBar-logo'></div>
+                    <LinkContainer to="/">
+                        <a className = 'navBar-logo'>&nbsp;</a>
+                    </LinkContainer>
+                </Navbar.Brand>
+                <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+                <Nav pullRight>
+                    <LinkContainer to="/blog">
+                        <MenuItem >Blog</MenuItem>
+                    </LinkContainer>
+                    <LinkContainer to="/contact">
+                        <MenuItem>Contact</MenuItem>
+                    </LinkContainer>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
         );
     }
 }

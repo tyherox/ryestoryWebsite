@@ -1,25 +1,23 @@
-/**
- * Created by JohnBae on 12/26/16.
- */
 
-import React, { Component, PropTypes } from 'react';
-import ReactDOM from 'react-dom';
 
-export default class Buffer extends Component {
+    import React, { Component, PropTypes } from 'react';
+    import ReactDOM from 'react-dom';
 
-    componentDidMount(){
+    export default class Buffer extends Component {
 
-        var buffer = ReactDOM.findDOMNode(this.refs.buffer);
+        componentDidMount(){
 
-        if(this.props.size){
-            buffer.style.padding = this.props.size + 'px';
+            var buffer = ReactDOM.findDOMNode(this.refs.buffer);
+
+            if(this.props.size){
+                buffer.style.padding = this.props.size + 'px';
+            }
+            else {
+                buffer.style.padding = 15 + 'px';
+            }
         }
-        else {
-            buffer.style.padding = 15 + 'px';
+
+        render() {
+           return(<div ref="buffer"></div>)
         }
     }
-
-    render() {
-       return(<div ref="buffer"></div>)
-    }
-}

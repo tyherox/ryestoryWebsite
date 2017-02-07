@@ -1,13 +1,12 @@
-.home_headerArea{
-    color: White;
-    width: 100%;
-    border: none;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-}
+ .homeHeaderArea{
+       width: 100%;
+       border: none;
+       height: 75vh;
+       display: flex;
+       justify-content: center;
+   }
 
-.home_headerText{
+.homeHeaderText{
     color: White;
     text-align: center;
     line-height: normal;
@@ -15,49 +14,40 @@
     align-self: center;
 }
 
-.home_landingPage{
+.homeDescriptionArea{
+    justify-content: center;
     background-color: #FFFFFF;
 }
 
+.homeDescriptionText{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align : left;
+}
+
+.homeFeaturesArea{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.homeContactUsArea{
+    width : 100%;
+    border : none;
+    height : 75vh;
+    display : flex;
+    justify-content : center;
+}
+
+
+.homeContactUsText{
+    color: White;
+    text-align: center;
+    line-height: normal;
+    margin: 0!important;
+
+}
 .home_intro{
 }
-
-.home_features{
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.home_iconLayout{
-    height: 75px;
-    background: url('/assets/layout.png') no-repeat center center;
-    background-size: contain;
-}
-
-.home_iconWidget{
-    height: 75px;
-    background: url('/assets/widgets.png') no-repeat center center;
-    background-size: contain;
-}
-
-.home_iconSheet{
-    height: 75px;
-    background: url('/assets/sheets.png') no-repeat center center;
-    background-size: contain;
-}
-
-.home_iconDescriptions{
-    padding-right: 25px;
-    padding-left: 25px;
-}
-
-.home_iconLogo{
-    height: 150px;
-    background: url('/assets/logoIcon.png') no-repeat center center;
-    background-size: contain;
-    margin: 10px;
-}
-
 .home_about{
     width: 50%;
     min-width: 300px;
@@ -105,7 +95,7 @@
     font-size: 125%;
 }
 
-.rye_button{
+.signMeUpButton{
     border: solid;
     border-width: thin;
     background-color: transparent;
@@ -120,7 +110,7 @@
     padding-left: 30px;
 }
 
-.rye_button:hover:enabled{
+.signMeUpButton:hover:enabled{
     background-color: white;
     color: #5D4037;
     border-color: white;

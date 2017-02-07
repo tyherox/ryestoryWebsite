@@ -9,6 +9,7 @@ import './ui/stylesheets/global.css'
 import './ui/stylesheets/bootstrap.css'
 import './ui/stylesheets/home.css'
 import './ui/stylesheets/footer.css'
+import './ui/stylesheets/text.css'
 
 export default class App extends Component {
 

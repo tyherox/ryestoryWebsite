@@ -1,5 +1,6 @@
 .exportPng{
-    background-image: url('/assets/Export.png');
+    background: url('/assets/Export.png') no-repeat center center;
+    background-size: contain;
 }
 .fullScreenPng{
 

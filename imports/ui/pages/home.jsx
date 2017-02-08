@@ -41,7 +41,7 @@ export default class App extends Component {
                     <div className = 'homeHeaderText'>
                         <h1 className="title">TRESTLE</h1>
                         <br/><br/>
-                        <p className="titleDiscription">How do you organize your desk?</p>
+                        <p className="titleDescription">How do you organize your desk?</p>
                         <Buffer />
                     </div>
                 </div>
@@ -125,28 +125,22 @@ export default class App extends Component {
                                     <Col md={4}>
                                         <div className = 'home_iconLayout'/>
                                         <br/>
-                                        <div className = 'titleDiscription'>
-                                            <p>Full Screen</p>
+                                        <div className = 'titleDescription'>
+                                            <p>Full-Screen</p>
                                         </div>
-                                    </Col>
-                                    <Col mdHidden>
-                                        <Buffer/>
                                     </Col>
                                     <Col md={4}>
                                         <div className = 'home_iconLayout'/>
                                         <br/>
-                                        <div className = 'titleDiscription'>
+                                        <div className = 'titleDescription'>
                                             <p>Syntax</p>
                                         </div>
                                     </Col>
-                                    <Col mdHidden>
-                                        <Buffer/>
-                                    </Col>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout'/>
+                                        <div className = 'home_iconLayout exportPng'/>
                                         <br/>
-                                        <div className = 'titleDiscription'>
-                                            <p>Exportation</p>
+                                        <div className = 'titleDescription'>
+                                            <p>Export</p>
                                         </div>
                                     </Col>
                                 </Row>
@@ -154,27 +148,21 @@ export default class App extends Component {
                                     <Col md={4}>
                                         <div className = 'home_iconLayout'/>
                                         <br/>
-                                        <div className = 'titleDiscription'>
+                                        <div className = 'titleDescription'>
                                             <p>Sentence Focus</p>
                                         </div>
                                     </Col>
-                                    <Col mdHidden>
-                                        <Buffer/>
-                                    </Col>
                                     <Col md={4}>
                                         <div className = 'home_iconLayout'/>
                                         <br/>
-                                        <div className = 'titleDiscription'>
+                                        <div className = 'titleDescription'>
                                             <p>Themes</p>
                                         </div>
                                     </Col>
-                                    <Col mdHidden>
-                                        <Buffer/>
-                                    </Col>
                                     <Col md={4}>
                                         <div className = 'home_iconLayout'/>
                                         <br/>
-                                        <div className = 'titleDiscription'>
+                                        <div className = 'titleDescription'>
                                             <p>Auto-Save</p>
                                         </div>
                                     </Col>

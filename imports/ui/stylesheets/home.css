@@ -26,8 +26,8 @@
 }
 
 .homeFeaturesArea{
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:10%;
+    padding-right:10%;
 }
 
 .homeContactUsArea{
@@ -47,7 +47,15 @@
 
 }
 .home_intro{
+
 }
+
+.home_iconLayout{
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+}
+
 .home_about{
     width: 50%;
     min-width: 300px;

@@ -10,6 +10,7 @@ import './ui/stylesheets/bootstrap.css'
 import './ui/stylesheets/home.css'
 import './ui/stylesheets/footer.css'
 import './ui/stylesheets/text.css'
+import './ui/stylesheets/image.css'
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 

@@ -3,10 +3,12 @@
     background-size: contain;
 }
 .fullScreenPng{
-
+    background: url('/assets/Fullscreen.png') no-repeat center center;
+    background-size: contain;
 }
 .layoutPng{
-
+    background: url('/assets/layout.png') no-repeat center center;
+    background-size: contain;
 }
 .logoIconPng{
 
@@ -15,20 +17,30 @@
 
 }
 .savePng{
-
+    background: url('/assets/Save.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 5%;
 }
 .sentenceFocusPng{
-
+    background: url('/assets/SentenceFocus.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 5%;
 }
 .sheetsPng{
-
+    background: url('/assets/sheets.png') no-repeat center center;
+    background-size: contain;
 }
 .syntaxPng{
-
+    background: url('/assets/Syntax.png') no-repeat center center;
+    background-size: contain;
 }
 .themesPng{
-
+    background: url('/assets/Themes.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 5%;
 }
 .widgetsPng{
+    background: url('/assets/Widgets.png') no-repeat center center;
+    background-size: contain;
 
 }

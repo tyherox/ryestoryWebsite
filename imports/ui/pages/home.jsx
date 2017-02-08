@@ -53,9 +53,9 @@ export default class App extends Component {
                             <div className='homeDescriptionText'>
                                 <h1 className='subtitle'>TRESTLE?</h1>
                                 <br/>
-                                <p className='discription'>Trestle is an upcoming writing app that feels like your virtual desk.Craft your writing space like you would on a real desk - by simply moving things around.
-                                    <br/><br/>Want to rearrange your layout? Drag and Drop! Want tools? Open up your widgets!
-                                    <br/><br/>You've never seen anything like this.</p>
+                                <p className='discription'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
+                                    <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
+                                    <br/><br/>You’ve never seen anything like this.</p>
                             </div>
                             <Buffer size ="30"/>
                         </Row>
@@ -70,9 +70,8 @@ export default class App extends Component {
                                 <Col md={6}>
                                     <div className="homeDescriptionText">
                                         <p className="texttitle">CLEAN SHEETS</p>
-                                        <p className="discription">Trestle provides Sheets that are ready to be filled with great ideas. Open up multiple Sheets to work on multiple projects. Don’t worry about losing your work -- its all auto-saved.<br/><br/>
-                                            If your Sheets feel clustered, hide your toolbar in Settings. Want to use Markdown? Simply choose your syntax on the Sheets options! Choose how your piece of paper will look like.
-                                        </p>
+                                        <p className="discription">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
+                                        <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
                                     </div>
                                 </Col>
                             </div>
@@ -84,13 +83,12 @@ export default class App extends Component {
                             <div className ='homeDescriptionArea'>
                                 <Col md={6}>
                                     <div className="homeDescriptionText">
-                                        <p className="texttitle">FLEXIBLE LAYOUT</p>
-                                        <p className="discription">Drag and drop to decorate your own cozy desk. Save multiple layouts so you don’t forget them. Want to focus on one work? Pin your Sheet and click Hide on your side toolbar. Now its just you and your work.<br/><br/>
-                                            Minimalism or Multitasking? Choose whatever you find comfortable.</p>
+                                        <p className="texttitle">DELIGHTFUL WIDGETS</p>
+                                        <p className="discription">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
                                     </div>
                                 </Col>
                                 <Col md={6}>
-                                    <div className = 'flexibleLayoutIcon'/>
+                                    <div className = 'delightfulWidgetsIcon'/>
                                 </Col>
                             </div>
                         </Row>
@@ -100,12 +98,13 @@ export default class App extends Component {
                         <Row>
                             <div className = 'homeDescriptionArea'>
                                 <Col md={6}>
-                                    <div className = 'delightfulWidgetsIcon'/>
+                                    <div className = 'flexibleLayoutIcon'/>
                                 </Col>
                                 <Col md={6}>
                                     <div className="homeDescriptionText">
-                                        <p className="texttitle">DELIGHTFUL WIDGETS</p>
-                                        <p className="discription">Your tools change a great work into a masterpiece. Need a dictionary? Need to organize your tasklist? Drag and drop your Widgets of all kinds for your writing. Just place it where it needs to be.</p>
+                                        <p className="texttitle">FLEXIBLE LAYOUT</p>
+                                        <p className="discription">Need a simple writing space? A word processing powerhouse? Anything in between? No sweat. Drag and drop widgets to build the layout you need. Save multiple layouts so you can quickly switch between sessions. Oh, and want to focus on a particular task? The pin and hide feature hides all your unpinned widgets.
+                                        <br/><br/>Build whatever layout you prefer in a giffy!</p>
                                     </div>
                                 </Col>
                             </div>
@@ -123,21 +122,21 @@ export default class App extends Component {
                                 </Row>
                                 <Row>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout'/>
+                                        <div className = 'homeIconLayout fullScreenPng'/>
                                         <br/>
                                         <div className = 'titleDescription'>
                                             <p>Full-Screen</p>
                                         </div>
                                     </Col>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout'/>
+                                        <div className = 'homeIconLayout syntaxPng'/>
                                         <br/>
                                         <div className = 'titleDescription'>
                                             <p>Syntax</p>
                                         </div>
                                     </Col>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout exportPng'/>
+                                        <div className = 'homeIconLayout exportPng'/>
                                         <br/>
                                         <div className = 'titleDescription'>
                                             <p>Export</p>
@@ -146,21 +145,21 @@ export default class App extends Component {
                                 </Row>
                                 <Row>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout'/>
+                                        <div className = 'homeIconLayout sentenceFocusPng'/>
                                         <br/>
                                         <div className = 'titleDescription'>
                                             <p>Sentence Focus</p>
                                         </div>
                                     </Col>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout'/>
+                                        <div className = 'homeIconLayout themesPng'/>
                                         <br/>
                                         <div className = 'titleDescription'>
                                             <p>Themes</p>
                                         </div>
                                     </Col>
                                     <Col md={4}>
-                                        <div className = 'home_iconLayout'/>
+                                        <div className = 'homeIconLayout savePng'/>
                                         <br/>
                                         <div className = 'titleDescription'>
                                             <p>Auto-Save</p>

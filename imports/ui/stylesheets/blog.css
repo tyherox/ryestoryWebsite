@@ -1,0 +1,42 @@
+#blog-container{
+    background: white;
+    padding: 50px;
+    min-height: calc(100vh - 125px);
+    width: 100%;
+}
+
+#blog-entries{
+    background: white;
+    width: 75%;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#blog-title{
+    font-size: 250%;
+    text-align: center;
+}
+
+.blogEntry-preview{
+    margin-bottom: 50px;
+}
+
+
+.blogEntry-previewText{
+    display: block;
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+.blogEntry-title{
+    font-size: 200%;
+    text-align: left;
+}
+
+.blogEntry-date{
+    color: gray;
+    margin-top: -10px;
+}

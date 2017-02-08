@@ -11,8 +11,10 @@ import './ui/stylesheets/home.css'
 import './ui/stylesheets/footer.css'
 import './ui/stylesheets/text.css'
 import './ui/stylesheets/image.css'
+import './ui/stylesheets/blog.css'
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
+import {browserHistory} from 'react-router';
 
 export default class App extends Component {
 
@@ -46,20 +48,17 @@ class NavbarInstance extends Component{
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <div className = 'navBar-logo'></div>
-                    <LinkContainer to="/">
-                        <a className = 'navBar-logo'>&nbsp;</a>
-                    </LinkContainer>
+                    <div className = 'navBar-logo' onClick={()=>browserHistory.push('/')}></div>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav pullRight>
                     <LinkContainer to="/blog">
-                        <MenuItem >Blog</MenuItem>
+                        <NavItem >Blog</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/contact">
-                        <MenuItem>Contact</MenuItem>
+                        <NavItem>Contact</NavItem>
                     </LinkContainer>
                 </Nav>
             </Navbar.Collapse>

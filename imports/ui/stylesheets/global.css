@@ -38,3 +38,7 @@ h1, h2, p, ul, li {
 b{
   font-family: montserrat-Bold;
 }
+
+.center-block{
+    text-align: center;
+}

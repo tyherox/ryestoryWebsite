@@ -1005,7 +1005,7 @@ select[multiple].input-lg {
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0px!important;
     border: 1px solid transparent;
 }
 @media (min-width: 768px) {

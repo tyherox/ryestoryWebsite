@@ -1,10 +1,16 @@
- .homeHeaderArea{
-       width: 100%;
-       border: none;
-       height: 75vh;
-       display: flex;
-       justify-content: center;
-   }
+.homePage{
+    position: relative;
+    top: -75px;
+    width: 100%;
+}
+
+.homeHeaderArea{
+    width: 100%;
+    border: none;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
 
 .homeHeaderText{
     color: White;
@@ -57,7 +63,9 @@
 }
 
 .homeDescriptionIconLayout{
+    height: 100%;
     width : 100%;
+    margin: 0 auto;
 }
 .home_emailButton{
     clear: both;

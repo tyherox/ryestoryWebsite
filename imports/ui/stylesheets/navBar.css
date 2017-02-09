@@ -2,12 +2,6 @@
     color: #F5F5F5;
 }
 
-.navBar{
-    border: none;
-    margin: 0 !important;
-    outline: 0!important;;
-    height: auto;
-}
 .navBarLogo {
     position: relative;
     float: left !important;

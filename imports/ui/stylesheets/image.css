@@ -42,5 +42,28 @@
 .widgetsPng{
     background: url('/assets/Widgets.png') no-repeat center center;
     background-size: contain;
+}
+.homeBgImagePng{
+    background : url('/assets/homeBgImage.png') no-repeat center center;
+    background-size: cover;
+}
 
+.whiteLayoutPng{
+    background : url('/assets/whiteLayout.png') no-repeat center center;
+    background-size: contain;
+}
+
+.whiteSheetsPng{
+    background : url('/assets/whiteSheets.png') no-repeat center center;
+    background-size: contain;
+}
+
+.whiteSheets2Png{
+    background : url('/assets/whiteSheets2.png') no-repeat center center;
+    background-size: contain;
+}
+
+.whiteWidgetsPng{
+    background : url('/assets/whiteWidgets.png') no-repeat center center;
+    background-size: contain;
 }

@@ -37,7 +37,7 @@ export default class App extends Component {
         return (
             <div>
                 <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
-                <div className = 'homeHeaderArea'>
+                <div className = 'homeHeaderArea homeBgImagePng'>
                     <div className = 'homeHeaderText'>
                         <h1 className="title">TRESTLE</h1>
                         <br/><br/>

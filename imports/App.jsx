@@ -44,7 +44,6 @@ class NavbarInstance extends Component{
 
     render(){
         return(
-
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
@@ -69,6 +68,7 @@ class NavbarInstance extends Component{
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+
         );
     }
 }

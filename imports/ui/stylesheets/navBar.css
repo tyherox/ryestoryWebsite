@@ -3,14 +3,13 @@
 }
 
 .navBar{
-    background-color: #303030;
     border: none;
     margin: 0 !important;
     outline: 0!important;;
     height: auto;
 }
 .navBarLogo {
-    position: fixed;
+    position: relative;
     float: left !important;
     margin-top: 25px;
     left : 30px;
@@ -24,8 +23,8 @@
     cursor: pointer!important;
 }
 
-.navBar-navButton{
+.navBarButton {
     height: 100%;
-   padding : 50px;
+    padding: 50px;
     float: right;
 }

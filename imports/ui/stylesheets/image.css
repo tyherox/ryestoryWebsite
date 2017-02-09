@@ -44,7 +44,7 @@
     background-size: contain;
 }
 .homeBgImagePng{
-    background : url('/assets/homeBgImage.png') no-repeat center center;
+    background : url('/assets/homeBackgroundImage.png') no-repeat center center;
     background-size: cover;
 }
 

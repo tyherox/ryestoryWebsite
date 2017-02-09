@@ -26,7 +26,7 @@ export default class App extends Component {
     render() {
         return (
             <div className = "masterContainer">
-                <NavbarInstance />
+                <NavbarInstance/>
                 {this.props.children}
                 <div className = 'footer'>
                     <div className = 'footerLogo'></div>
@@ -39,10 +39,6 @@ export default class App extends Component {
 
 class NavbarInstance extends Component{
 
-    componentDidMount(){
-        console.log("mounted navbar");
-    }
-
     render(){
         return(
         <Navbar inverse collapseOnSelect>
@@ -54,7 +50,7 @@ class NavbarInstance extends Component{
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav pullRight >
-                    <LinkContainer to="/home">
+                    <LinkContainer to="/">
                         <NavItem>HOME</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/about">

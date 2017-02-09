@@ -1,10 +1,17 @@
- .homeHeaderArea{
-       width: 100%;
-       border: none;
-       height: 75vh;
-       display: flex;
-       justify-content: center;
-   }
+.homePage{
+    position: relative;
+    top: -75px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.homeHeaderArea{
+    width: 100%;
+    border: none;
+    height: calc(75vh + 75px);
+    display: flex;
+    justify-content: center;
+}
 
 .homeHeaderText{
     color: White;
@@ -17,11 +24,17 @@
 .homeDescriptionArea{
     justify-content: center;
     background-color: #FFFFFF;
+    width: calc(100% - 50px);
+    max-width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
 }
 
 .homeDescriptionText{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align : left;
 }
 
@@ -57,7 +70,10 @@
 }
 
 .homeDescriptionIconLayout{
+    position: relative;
+    height: 100%;
     width : 100%;
+    margin: 0 auto;
 }
 .home_emailButton{
     clear: both;

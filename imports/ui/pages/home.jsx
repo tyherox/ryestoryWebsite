@@ -35,7 +35,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="homePage">
                 <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
                 <div className = 'homeHeaderArea homeBgImagePng'>
                     <div className = 'homeHeaderText'>
@@ -65,7 +65,7 @@ export default class App extends Component {
                         <Row>
                             <div className ='homeDescriptionArea'>
                                 <Col md={6}>
-                                    <div className = 'whiteSheetsPng homeDescriptionIconLayout'/>
+                                    <Image src="/assets/whiteSheets.png" responsive />
                                 </Col>
                                 <Col md={6}>
                                     <div className="homeDescriptionText">

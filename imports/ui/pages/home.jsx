@@ -50,7 +50,7 @@ export default class App extends Component {
                         <Buffer />
                         <Row >
                             <Buffer size ="30"/>
-                            <div className='homeDescriptionText'>
+                            <div className='homeTrestleDescriptionText'>
                                 <h1 className='subtitle'>TRESTLE?</h1>
                                 <br/>
                                 <p className='discription'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
@@ -88,7 +88,7 @@ export default class App extends Component {
                                     </div>
                                 </Col>
                                 <Col md={6}>
-                                    <div className = 'delightfulWidgetsIcon'/>
+                                    <Image src="/assets/whiteWidgets.png" responsive />
                                 </Col>
                             </div>
                         </Row>
@@ -98,7 +98,7 @@ export default class App extends Component {
                         <Row>
                             <div className = 'homeDescriptionArea'>
                                 <Col md={6}>
-                                    <div className = 'flexibleLayoutIcon'/>
+                                    <Image src="/assets/whiteLayout.png" responsive />
                                 </Col>
                                 <Col md={6}>
                                     <div className="homeDescriptionText">
@@ -174,12 +174,12 @@ export default class App extends Component {
                     </Grid>
                 </div>
 
-                <div className='homeContactUsArea'>
+                <div className='homeSubscribeArea'>
 
-                    <div className = 'homeContactUsText'>
+                    <div className = 'homeSubscribeText'>
                         <Buffer />
                         <Buffer />
-                        <h1 className='subtitle'>CONTACT US</h1>
+                        <h1 className='subtitle'>SUBSCRIBE</h1>
                         <Buffer />
                     </div>
                 </div>

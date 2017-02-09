@@ -50,7 +50,7 @@ export default class App extends Component {
                         <Buffer />
                         <Row >
                             <Buffer size ="30"/>
-                            <div className='homeTrestleDescriptionText'>
+                            <div className='homeTrestleDescriptionTextClose'>
                                 <h1 className='subtitle'>TRESTLE?</h1>
                                 <br/>
                                 <p className='discription'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.

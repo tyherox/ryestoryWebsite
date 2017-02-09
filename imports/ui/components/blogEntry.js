@@ -20,7 +20,7 @@ export default class BlogEntry extends Component {
                     <p className="blogEntry-title"><b>{this.props.title}</b></p>
                     <p className="blogEntry-date">{this.props.date}</p>
                     <p className="blogEntry-previewText">{this.props.preview}</p>
-                    <Button className="blogEntry-readMore" onClick={()=>browserHistory.push('/blog/'+ this.props.title +'')}>Read More</Button>
+                    <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog/'+ this.props.title +'')}>Read More</Button>
                 </div>
             )
         }
@@ -30,7 +30,7 @@ export default class BlogEntry extends Component {
                     <p className="blogEntry-title"><b>{this.props.title}</b></p>
                     <p className="blogEntry-date">{this.props.date}</p>
                     <p className="blogEntry-content">{this.props.content}</p>
-                    <Button className="blogEntry-readMore" onClick={()=>browserHistory.push('/blog')}>Back</Button>
+                    <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog')}>Back</Button>
                 </div>
             )
         }

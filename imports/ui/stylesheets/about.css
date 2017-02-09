@@ -1,6 +1,34 @@
+
 .aboutContainer{
     background: white;
-    padding: 50px;
     min-height: calc(100vh - 125px);
     width: 100%;
+}
+
+.aboutOurStoryArea{
+    background : transparent;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutOurStoryText{
+
+}
+
+.aboutOurMembersArea{
+    background : lightgray;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutOurMembersText{
+
+}
+
+.aboutOurMembersIconLayout{
+
 }

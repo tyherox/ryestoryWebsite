@@ -83,22 +83,17 @@
     clear: both;
     font-size: 125%;
 }
-
-.signMeUpButton{
-    border: solid;
-    border-width: thin;
-    background-color: transparent;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    text-transform: uppercase;
-    padding: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
+.homeEmailBox{
+    background: transparent;
+    border : none;
+    width: 50%;
+    min-width: 100px;
+    max-width: 350px;
+    font-size: 125%;
 }
-
+.homeEmailText{
+    border-botton : 6px solid white;
+}
 .signMeUpButton:hover:enabled{
     background-color: white;
     color: #303030;

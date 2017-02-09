@@ -181,6 +181,15 @@ export default class App extends Component {
                         <Buffer />
                         <h1 className='subtitle'>SUBSCRIBE</h1>
                         <Buffer />
+                        <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
+                              target="iframe1"
+                              method="POST"
+                              id="mG61Hd">
+                            <buffer/>
+                            <input type = "email" placeholder = "Email:" className = 'homeEmailBox homeEmailText' required></input>
+                            <br/><br/>
+                            <button type="submit" className = 'home_emailButton rye_button' ref="submitButton">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </div>

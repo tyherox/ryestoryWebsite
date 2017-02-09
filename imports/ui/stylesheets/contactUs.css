@@ -1,6 +1,30 @@
-.contactUsContainer{
+.contactUs-container{
+    position: relative;
+    background: white;
+    padding-right: 100px;
+    padding-left: 100px;
+    min-height: calc(100vh - 200px);
+    width: 100%;
+}
+
+.contactUs-title{
+    font-size: 250%;
+    text-align: center;
+}
+
+.contactUs-center{
     background: white;
     padding: 50px;
     min-height: calc(100vh - 125px);
-    width: 100%;
+
+    justify-content: center;
+    width: 70%;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactUs-text{
+    font-size: 175%;
 }

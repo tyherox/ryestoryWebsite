@@ -65,7 +65,7 @@ export default class App extends Component {
                         <Row>
                             <div className ='homeDescriptionArea'>
                                 <Col md={6}>
-                                    <div className = 'whiteSheetsPng homeDescriptionIconLayout'/>
+                                    <Image src="/assets/whiteSheets.png" responsive />
                                 </Col>
                                 <Col md={6}>
                                     <div className="homeDescriptionText">

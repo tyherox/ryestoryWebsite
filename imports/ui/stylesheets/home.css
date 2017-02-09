@@ -56,48 +56,9 @@
     margin: 0 auto;
 }
 
-.home_about{
-    width: 50%;
-    min-width: 300px;
-    margin: 0 auto;
+.homeDescriptionIconLayout{
+    width : 100%;
 }
-
-.home_aboutDescription{
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    float: none;
-}
-
-.vCenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
-.home_subscribe{
-    color: white;
-    background-color: #303030;
-    text-align: center;
-    height: auto;
-
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.home_input{
-    background: transparent;
-    outline: none;
-    border-color: transparent;
-    border-bottom-color: white;
-    border-width: thin;
-    width: 50%;
-    min-width: 100px;
-    max-width: 350px;
-    font-size: 125%;
-}
-
 .home_emailButton{
     clear: both;
     font-size: 125%;

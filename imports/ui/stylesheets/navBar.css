@@ -3,28 +3,28 @@
 }
 
 .navBar{
-    background-color: transparent;
     border: none;
-    margin: 0!important;
+    margin: 0 !important;
     outline: 0!important;;
     height: auto;
 }
-.navBar-logo {
-    position: absolute;
+.navBarLogo {
+    position: relative;
     float: left !important;
+    margin-top: 25px;
+    left : 30px;
     display: block;
     background: url('/assets/ryeLogo.png') no-repeat center center;
     background-size: contain;
-    width: 75px;
-    padding: 0!important;
-    margin-left: 25px;
+    width:100px;
 }
 
-.navBar-logo:hover{
+.navBarLogo:hover{
     cursor: pointer!important;
 }
 
-.navBar-navButton{
+.navBarButton {
     height: 100%;
+    padding: 50px;
     float: right;
 }

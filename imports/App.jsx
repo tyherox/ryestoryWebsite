@@ -44,25 +44,31 @@ class NavbarInstance extends Component{
 
     render(){
         return(
-
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <div className = 'navBar-logo' onClick={()=>browserHistory.push('/')}></div>
+                    <div className = 'navBarLogo' onClick={()=>browserHistory.push('/')}></div>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
-                <Nav pullRight>
+                <Nav pullRight >
+                    <LinkContainer to="/home">
+                        <NavItem>HOME</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to="/about">
+                        <NavItem>ABOUT</NavItem>
+                    </LinkContainer>
                     <LinkContainer to="/blog">
-                        <NavItem >Blog</NavItem>
+                        <NavItem >BLOG</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/contact">
-                        <NavItem>Contact</NavItem>
+                        <NavItem>CONTACT US</NavItem>
                     </LinkContainer>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+
         );
     }
 }

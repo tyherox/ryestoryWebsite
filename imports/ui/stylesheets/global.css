@@ -10,21 +10,21 @@
 }
 
 body {
-    background-color: green;
+    background-color: #ffffff;
 }
 
 @font-face {
-    font-family: montserrat;
-    src: url(/montserrat/Montserrat-Light.otf);
+    font-family: openSans;
+    src: url(/open-sans/OpenSans-Light.ttf);
 }
 
 @font-face {
-    font-family: montserrat-Bold;
-    src: url(/montserrat/Montserrat-Regular.otf);
+    font-family: openSans-Bold;
+    src: url(/open-sans/OpenSans-Regular.ttf);
 }
 
 h1, h2, p, ul, li {
-    font-family: montserrat;
+    font-family: openSans;
 }
 
 .masterContainer{
@@ -36,7 +36,7 @@ h1, h2, p, ul, li {
 
 
 b{
-  font-family: montserrat-Bold;
+  font-family: openSans-Bold;
 }
 
 .center-block{

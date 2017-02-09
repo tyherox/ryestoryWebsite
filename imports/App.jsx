@@ -12,6 +12,7 @@ import './ui/stylesheets/footer.css'
 import './ui/stylesheets/text.css'
 import './ui/stylesheets/image.css'
 import './ui/stylesheets/blog.css'
+import './ui/stylesheets/about.css'
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 import {browserHistory} from 'react-router';

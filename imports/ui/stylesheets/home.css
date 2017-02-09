@@ -7,7 +7,7 @@
 .homeHeaderArea{
     width: 100%;
     border: none;
-    height: 75vh;
+    height: calc(75vh + 75px);
     display: flex;
     justify-content: center;
 }

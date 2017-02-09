@@ -1013,6 +1013,7 @@ select[multiple].input-lg {
     min-height: 80px;
     margin-bottom: 0px!important;
     border: 1px solid transparent;
+    border: 1px solid transparent;
     background-color: transparent;
 }
 @media (min-width: 768px) {

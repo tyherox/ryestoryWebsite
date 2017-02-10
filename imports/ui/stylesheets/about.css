@@ -1,4 +1,6 @@
-
+.aboutTitle{
+    font-size : 250%;
+}
 .aboutContainer{
     background: white;
     min-height: calc(100vh - 125px);
@@ -14,19 +16,29 @@
 }
 
 .aboutOurStoryText{
-
+    vertical-align: middle;
+    text-align: center;
+    line-height: normal;
+    margin: 0!important;
+    align-self: center;
+    padding-left : 150px;
+    padding-right : 150px;
 }
 
 .aboutOurMembersArea{
-    background : lightgray;
+    background : #ffffff;
     width: 100%;
-    border: none;
     display: flex;
     justify-content: center;
 }
 
 .aboutOurMembersText{
-
+    border-top : 1px #303030 solid ;
+    width : 80%;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0!important;
+    align-self: center;
 }
 
 .aboutOurMembersIconLayout{

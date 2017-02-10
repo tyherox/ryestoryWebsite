@@ -1,8 +1,8 @@
 .contactUs-container{
     position: relative;
     background: white;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 2em;
+    padding-left: 2em;
     min-height: calc(100vh - 200px);
     width: 100%;
 }
@@ -14,11 +14,11 @@
 
 .contactUs-center{
     background: white;
-    padding: 50px;
+    padding: 2em;
     min-height: calc(100vh - 125px);
 
     justify-content: center;
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
     display: block;
     margin-left: auto;

@@ -178,8 +178,7 @@ export default class App extends Component {
 
                     <div className = 'homeSubscribeText'>
                         <Buffer />
-                        <Buffer />
-                        <h1 className='subtitle'>SUBSCRIBE</h1>
+                        <h1 className='subtitle'>Subscribe</h1>
                         <Buffer />
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"

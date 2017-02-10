@@ -39,7 +39,7 @@
 .homeTrestleDescriptionTextClose{
     text-align: center;
     background-color: #FFFFFF;
-    width: 60%;
+    width: 90%;
     max-width: 1000px;
     display: block;
     margin-left: auto;
@@ -49,13 +49,13 @@
 .homeDescriptionText{
     vertical-align: middle;
     align-self: center;
-    margin-left : 50px;
-    margin-right : 50px;
+    margin-left : 2em;
+    margin-right : 2em;
 }
 
 .homeFeaturesArea{
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:2em;
+    padding-right:2em;
 }
 
 .homeSubscribeArea{

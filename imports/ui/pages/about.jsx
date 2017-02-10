@@ -24,7 +24,7 @@ export default class App extends Component {
                                     <Image src="/assets/logoIcon.png" height='180px' />
                                 </Col>
                                 <Col md={6}>
-                                    <p className='discription'>At Ryestory, we celebrate the individual and encourage individuality.<br/>
+                                    <p className='discription'>At Ryestory, we celebrate the individual and encourage individuality.<br/><br/>
                                         With recent technological advances leaving many behind, we felt a focus on friendly, intuitive software was necessary. As a result we formed Ryestory to build a bridge between people and technology. We aspire to create technological brilliance through meticulous user experience design and innovative applications of software.</p>
                                 </Col>
                             </Row>

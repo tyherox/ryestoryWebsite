@@ -43,7 +43,7 @@ export default class App extends Component {
             name: name,
             email: email,
             message: message
-        })
+        });
 
         setTimeout(() => {
             this.setState({isLoading: false});

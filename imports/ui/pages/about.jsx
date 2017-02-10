@@ -4,6 +4,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import Buffer from '../components/buffer.js';
+import {Grid, Row, Col, Panel, Jumbotron, Image, Button, FormGroup, FormControl, ControlLabel, HelpBlock} from 'react-bootstrap';
 
 export default class App extends Component {
 
@@ -13,12 +14,46 @@ export default class App extends Component {
         return (
             <div className='aboutContainer'>
                 <div className='aboutOurStoryArea'>
-                    <h1 className='subtitle'>Our Story</h1>
-                    <div className='aboutOurStoryText'>
+                   <div className='aboutOurStoryText'>
+                       <Buffer size="45"/>
+                       <h1 className='aboutTitle'>Our Story</h1>
+                       <Buffer size="30"/>
+                        <Grid fluid>
+                            <Row>
+                                <Col md={6}>
+                                    <Image src="/assets/logoIcon.png" height='180px' />
+                                </Col>
+                                <Col md={6}>
+                                    <p className='discription'>At Ryestory, we celebrate the individual and encourage individuality.<br/>
+                                        With recent technological advances leaving many behind, we felt a focus on friendly, intuitive software was necessary. As a result we formed Ryestory to build a bridge between people and technology. We aspire to create technological brilliance through meticulous user experience design and innovative applications of software.</p>
+                                </Col>
+                            </Row>
+                        </Grid>
+                       <Buffer size="45"/>
                     </div>
                 </div>
                 <div className='aboutOurMembersArea'>
-                    <h1 classsName='subtitle'>Our Members</h1>
+                    <div className='aboutOurMembersText'>
+                        <Buffer size="45"/>
+                        <h1 classsName='aboutTitle'>Our Members</h1>
+                        <Buffer/>
+                        <Grid fluid>
+                            <Row>
+                                <Col md={3}>image</Col>
+                                <Col md={3}>discription</Col>
+                                <Col md={3}>image</Col>
+                                <Col md={3}>discription</Col>
+                            </Row>
+                            <Row>
+                                <Col md={3}>image</Col>
+                                <Col md={3}>discription</Col>
+                                <Col md={3}>image</Col>
+                                <Col md={3}>discription</Col>
+                            </Row>
+                        </Grid>
+                        <Buffer size="45"/>
+                    <Buffer/>
+                    </div>
                 </div>
             </div>
         );

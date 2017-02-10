@@ -52,7 +52,7 @@ export default class App extends Component {
                             <Buffer size ="30"/>
                             <div className='homeTrestleDescriptionTextClose'>
                                 <h1 className='subtitle'>TRESTLE?</h1>
-                                <br/>
+                                <br/><br/>
                                 <p className='discription'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
@@ -185,16 +185,16 @@ export default class App extends Component {
                 <div className='homeSubscribeArea'>
 
                     <div className = 'homeSubscribeText'>
-                        <Buffer />
+                        <Buffer/>
                         <h1 className='subtitle'>Subscribe</h1>
-                        <Buffer />
+                        <Buffer size="25"/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
                               method="POST"
                               id="mG61Hd">
-                            <buffer/>
-                            <input type = "email" placeholder = "Email:" className = 'homeEmailBox homeEmailText' required></input>
-                            <br/><br/>
+                            <input type = "email" placeholder ="Subscribe to hear the latest news about Trestle!"
+                            className = 'homeEmailBox' required></input>
+                            <Buffer size="30"/>
                             <Button bsStyle="danger" type="submit" className = 'home_emailButton rye_button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>

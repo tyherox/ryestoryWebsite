@@ -106,12 +106,9 @@
     outline: none;
     width: 100%;
     min-width: 100px;
-    max-width: 350px;
+
     font-size: 125%;
     border-bottom: 2px solid white;
-}
-.homeEmailText{
-    border-botton : 6px solid white;
 }
 .signMeUpButton:hover:enabled{
     background-color: white;

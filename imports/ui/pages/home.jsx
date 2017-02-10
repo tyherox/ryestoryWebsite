@@ -81,14 +81,14 @@ export default class App extends Component {
                         <Buffer />
                         <Row>
                             <div className ='homeDescriptionArea'>
-                                <Col md={6}>
+                                <Col md={6} mdPush={6}>
+                                    <Image src="/assets/whiteWidgets.png" responsive />
+                                </Col>
+                                <Col md={6} mdPull={6}>
                                     <div className="homeDescriptionText">
                                         <p className="texttitle">DELIGHTFUL WIDGETS</p>
                                         <p className="discription">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
                                     </div>
-                                </Col>
-                                <Col md={6}>
-                                    <Image src="/assets/whiteWidgets.png" responsive />
                                 </Col>
                             </div>
                         </Row>
@@ -127,6 +127,7 @@ export default class App extends Component {
                                         <div className = 'titleDescription'>
                                             <p>Full-Screen</p>
                                         </div>
+                                        <p className="discription center-block">The maximum full view at your disposal. Need something else? You can always minimize!</p>
                                     </Col>
                                     <Col md={4}>
                                         <div className = 'homeIconLayout syntaxPng'/>
@@ -134,6 +135,7 @@ export default class App extends Component {
                                         <div className = 'titleDescription'>
                                             <p>Syntax</p>
                                         </div>
+                                        <p className="discription center-block">Trestle supports Markdown! Mark it down.</p>
                                     </Col>
                                     <Col md={4}>
                                         <div className = 'homeIconLayout exportPng'/>
@@ -141,6 +143,7 @@ export default class App extends Component {
                                         <div className = 'titleDescription'>
                                             <p>Export</p>
                                         </div>
+                                        <p className="discription center-block">Export your work into docx, PDF, txt, and rtf files.</p>
                                     </Col>
                                 </Row>
                                 <Row>
@@ -150,6 +153,8 @@ export default class App extends Component {
                                         <div className = 'titleDescription'>
                                             <p>Sentence Focus</p>
                                         </div>
+                                        <p className="discription center-block">Focus on one sentence by graying everything else out... details will be uncovered!</p>
+
                                     </Col>
                                     <Col md={4}>
                                         <div className = 'homeIconLayout themesPng'/>
@@ -157,6 +162,8 @@ export default class App extends Component {
                                         <div className = 'titleDescription'>
                                             <p>Themes</p>
                                         </div>
+                                        <p className="discription center-block">Choose a polished theme to add yet another level of personalization.</p>
+
                                     </Col>
                                     <Col md={4}>
                                         <div className = 'homeIconLayout savePng'/>
@@ -164,6 +171,7 @@ export default class App extends Component {
                                         <div className = 'titleDescription'>
                                             <p>Auto-Save</p>
                                         </div>
+                                        <p className="discription center-block">Forgot to save? Don’t worry, it’s all there.</p>
                                     </Col>
                                 </Row>
                             </Grid>
@@ -187,7 +195,7 @@ export default class App extends Component {
                             <buffer/>
                             <input type = "email" placeholder = "Email:" className = 'homeEmailBox homeEmailText' required></input>
                             <br/><br/>
-                            <button type="submit" className = 'home_emailButton rye_button' ref="submitButton">Subscribe</button>
+                            <Button bsStyle="danger" type="submit" className = 'home_emailButton rye_button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>
                 </div>

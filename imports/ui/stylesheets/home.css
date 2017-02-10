@@ -97,14 +97,18 @@
 .home_emailButton{
     clear: both;
     font-size: 125%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .homeEmailBox{
     background: transparent;
     border : none;
-    width: 50%;
+    outline: none;
+    width: 100%;
     min-width: 100px;
     max-width: 350px;
     font-size: 125%;
+    border-bottom: 2px solid white;
 }
 .homeEmailText{
     border-botton : 6px solid white;

@@ -5,7 +5,7 @@
 import React, { Component, PropTypes } from 'react';
 import {Grid, Row, Col, Panel, Jumbotron, Image, Button, FormGroup, FormControl, ControlLabel, HelpBlock} from 'react-bootstrap'
 import Buffer from '../components/buffer';
-
+import { Messages } from '../../api/messages.js';
 
 export default class App extends Component {
 
@@ -38,6 +38,13 @@ export default class App extends Component {
 
         this.setState({isLoading: true});
         console.log("Name:",name, "Email:",email, "Message:",message);
+
+        Messages.insert({
+            name: name,
+            email: email,
+            message: message
+        })
+
         setTimeout(() => {
             this.setState({isLoading: false});
             this.setState({thankYou: true});

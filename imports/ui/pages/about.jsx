@@ -16,7 +16,7 @@ export default class App extends Component {
                 <div className='aboutOurStoryArea'>
                    <div className='aboutOurStoryText'>
                        <Buffer size="45"/>
-                       <h1 className='aboutTitle'>Our Story</h1>
+                       <div className="contactUs-title">Our Story</div>
                        <Buffer size="30"/>
                         <Grid fluid>
                             <Row>
@@ -35,7 +35,7 @@ export default class App extends Component {
                 <div className='aboutOurMembersArea'>
                     <div className='aboutOurMembersText'>
                         <Buffer size="45"/>
-                        <h1 classsName='aboutTitle'>Our Members</h1>
+                        <div className="contactUs-title">Our Team</div>
                         <Buffer/>
                         <Grid fluid>
                             <Row>

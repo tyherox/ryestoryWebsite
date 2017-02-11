@@ -30,8 +30,9 @@ export default class App extends Component {
                 <NavbarInstance/>
                 {this.props.children}
                 <div className = 'footer'>
-                    <div className = 'footerLogo'></div>
-                    <a className = 'footerContact' href = 'mailto:andre.kim@ryestory.com'>Contact us: andre.kim@ryestory.com</a>
+                    <div className = 'footerLogo' />
+                    <a className = 'footer-facebook' href="https://www.facebook.com/StoryWithRye/"/>
+                    <a className = 'footer-email' href = 'mailto:andre.kim@ryestory.com' />
                 </div>
             </div>
         );
@@ -40,9 +41,17 @@ export default class App extends Component {
 
 class NavbarInstance extends Component{
 
+    resetHome(state){
+        console.log(state);
+        var style = document.getElementById("versatileStyle");
+        console.log(style);
+        if(state) style.innerHTML = ".homePage{top: 0px;}";
+        else style.innerHTML = ".homePage{top: -75px;}";
+    }
+
     render(){
         return(
-        <Navbar inverse collapseOnSelect>
+        <Navbar inverse collapseOnSelect onToggle={this.resetHome.bind(this)}>
             <Navbar.Header>
                 <Navbar.Brand>
                     <div className = 'navBarLogo' onClick={()=>browserHistory.push('/')}></div>

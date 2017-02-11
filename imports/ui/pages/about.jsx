@@ -16,7 +16,7 @@ export default class App extends Component {
                 <div className='aboutOurStoryArea'>
                    <div className='aboutOurStoryText'>
                        <Buffer size="45"/>
-                       <h1 className='aboutTitle'>Our Story</h1>
+                       <div className="contactUs-title">Our Story</div>
                        <Buffer size="30"/>
                         <Grid fluid>
                             <Row>
@@ -24,7 +24,7 @@ export default class App extends Component {
                                     <Image src="/assets/logoIcon.png" height='180px' />
                                 </Col>
                                 <Col md={6}>
-                                    <p className='discription'>At Ryestory, we celebrate the individual and encourage individuality.<br/>
+                                    <p className='discription'>At Ryestory, we celebrate the individual and encourage individuality.<br/><br/>
                                         With recent technological advances leaving many behind, we felt a focus on friendly, intuitive software was necessary. As a result we formed Ryestory to build a bridge between people and technology. We aspire to create technological brilliance through meticulous user experience design and innovative applications of software.</p>
                                 </Col>
                             </Row>
@@ -35,7 +35,7 @@ export default class App extends Component {
                 <div className='aboutOurMembersArea'>
                     <div className='aboutOurMembersText'>
                         <Buffer size="45"/>
-                        <h1 classsName='aboutTitle'>Our Members</h1>
+                        <div className="contactUs-title">Our Team</div>
                         <Buffer/>
                         <Grid fluid>
                             <Row>

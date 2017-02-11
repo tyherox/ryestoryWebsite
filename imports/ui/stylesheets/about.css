@@ -21,8 +21,9 @@
     line-height: normal;
     margin: 0!important;
     align-self: center;
-    padding-left : 150px;
-    padding-right : 150px;
+    padding-left : 3em;
+    padding-right : 3em;
+    max-width: 1000px;
 }
 
 .aboutOurMembersArea{

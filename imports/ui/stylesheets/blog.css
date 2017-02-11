@@ -45,3 +45,7 @@
     color: gray;
     margin-top: -10px;
 }
+
+.blogEntry-readMore{
+    float: right;
+}

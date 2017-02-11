@@ -19,11 +19,13 @@
 }
 
 .discription{
+    text-align: left;
     font-size : 125%;
     color:#454545;
 }
 
 .texttitle{
+    margin-top: 15px;
     font-size : 200%;
     font-weight:bold;
     color:#454545;

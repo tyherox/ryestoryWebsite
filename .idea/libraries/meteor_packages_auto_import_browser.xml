@@ -19,8 +19,12 @@
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/export_globals.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/tmeasday_check-npm-versions/0.2.0/web.browser/check-npm-versions.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/console.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/import_globals.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/createContainer.jsx" />
+        <item url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/react-meteor-data.jsx" />
+        <item url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/ReactMeteorData.jsx" />
         <item url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js" />
         <item url="file://$USER_HOME$/.meteor/packages/retry/1.0.9/web.browser/retry.js" />
         <item url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/reload.js" />
@@ -154,8 +158,12 @@
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/export_globals.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/tmeasday_check-npm-versions/0.2.0/web.browser/check-npm-versions.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/console.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/import_globals.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/createContainer.jsx" />
+      <root url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/react-meteor-data.jsx" />
+      <root url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/ReactMeteorData.jsx" />
       <root url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js" />
       <root url="file://$USER_HOME$/.meteor/packages/retry/1.0.9/web.browser/retry.js" />
       <root url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/reload.js" />

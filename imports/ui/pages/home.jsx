@@ -93,8 +93,8 @@ export default class App extends Component {
                                     </div>
                                 </Col>
                             </div>
-                            <Buffer size="30"/>
                         </Row>
+                        <Buffer size="30"/>
                         <hr/>
                         <Row>
                             <Buffer size="30"/>
@@ -114,75 +114,74 @@ export default class App extends Component {
                             </div>
                             <Buffer size="30"/>
                         </Row>
+                        <Buffer size="30"/>
                         <hr/>
-                        <Row className='homeFeaturesArea'>
-                            <Grid fluid>
-                                <Row>
-                                    <Col md={12}>
-                                        <h1 className="subtitle">FEATURES</h1>
-                                        <Buffer size ="30"/>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col md={4}>
-                                        <div className = 'homeIconLayout fullScreenPng'/>
-                                        <br/>
-                                        <div className = 'titleDescription'>
-                                            <p>Full-Screen</p>
-                                        </div>
-                                        <p className="discription center-block">The maximum full view at your disposal. Need something else? You can always minimize!</p>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className = 'homeIconLayout syntaxPng'/>
-                                        <br/>
-                                        <div className = 'titleDescription'>
-                                            <p>Syntax</p>
-                                        </div>
-                                        <p className="discription center-block">Trestle supports Markdown! Mark it down.</p>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className = 'homeIconLayout exportPng'/>
-                                        <br/>
-                                        <div className = 'titleDescription'>
-                                            <p>Export</p>
-                                        </div>
-                                        <p className="discription center-block">Export your work into docx, PDF, txt, and rtf files.</p>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col md={4}>
-                                        <div className = 'homeIconLayout sentenceFocusPng'/>
-                                        <br/>
-                                        <div className = 'titleDescription'>
-                                            <p>Sentence Focus</p>
-                                        </div>
-                                        <p className="discription center-block">Focus on one sentence by graying everything else out... details will be uncovered!</p>
-
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className = 'homeIconLayout themesPng'/>
-                                        <br/>
-                                        <div className = 'titleDescription'>
-                                            <p>Themes</p>
-                                        </div>
-                                        <p className="discription center-block">Choose a polished theme to add yet another level of personalization.</p>
-
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className = 'homeIconLayout savePng'/>
-                                        <br/>
-                                        <div className = 'titleDescription'>
-                                            <p>Auto-Save</p>
-                                        </div>
-                                        <p className="discription center-block">Forgot to save? Don’t worry, it’s all there.</p>
-                                    </Col>
-                                </Row>
-                            </Grid>
-                            <Buffer/>
-                            <Buffer/>
-                        </Row>
-                        <Buffer size ="30"/>
                     </Grid>
+                </div>
+                <Buffer size="30"/>
+                <div className='home-features-section'>
+                    <Grid fluid>
+                            <Row>
+                                <Col md={12}>
+                                    <h1 className="title-section">FEATURES</h1>
+                                    <Buffer size ="30"/>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={4}>
+                                    <div className = 'home-features-image full-screen-image'/>
+                                    <br/>
+                                    <div className = 'subtitle-section'>
+                                        <p>Full-Screen</p>
+                                    </div>
+                                    <p className="description-section center-block">The maximum full view at your disposal. Need something else? You can always minimize!</p>
+                                </Col>
+                                <Col md={4}>
+                                    <div className = 'home-features-image syntax-image'/>
+                                    <br/>
+                                    <div className = 'subtitle-section'>
+                                        <p>Syntax</p>
+                                    </div>
+                                    <p className="description-section center-block">Trestle supports Markdown! Mark it down.</p>
+                                </Col>
+                                <Col md={4}>
+                                    <div className = 'home-features-image export-image'/>
+                                    <br/>
+                                    <div className = 'subtitle-section'>
+                                        <p>Export</p>
+                                    </div>
+                                    <p className="description-section center-block">Export your work into docx, PDF, txt, and rtf files.</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={4}>
+                                    <div className = 'home-features-image sentence-focus-image'/>
+                                    <br/>
+                                    <div className = 'subtitle-section'>
+                                        <p>Sentence Focus</p>
+                                    </div>
+                                    <p className="description-section center-block">Focus on one sentence by graying everything else out... details will be uncovered!</p>
+
+                                </Col>
+                                <Col md={4}>
+                                    <div className = 'home-features-image themes-image'/>
+                                    <br/>
+                                    <div className = 'subtitle-section'>
+                                        <p>Themes</p>
+                                    </div>
+                                    <p className="description-section center-block">Choose a polished theme to add yet another level of personalization.</p>
+
+                                </Col>
+                                <Col md={4}>
+                                    <div className = 'home-features-image save-image'/>
+                                    <br/>
+                                    <div className = 'subtitle-section'>
+                                        <p>Auto-Save</p>
+                                    </div>
+                                    <p className="description-section center-block">Forgot to save? Don’t worry, it’s all there.</p>
+                                </Col>
+                            </Row>
+                        </Grid>
                 </div>
 
                 <div className='homeSubscribeArea'>

@@ -1,4 +1,25 @@
-
+.title-brandname{
+    font-size : 50px;
+    font-weight : bold;
+}
+.description-brandname{
+    font-size : 20px;
+}
+.title-section{
+    font-size : 35px;
+    font-weight : bold;
+}
+.title-section-small{
+    font-size: 25px;
+    font-weight : bold;
+}
+.subtitle-section{
+    font-size : 15px;
+    font-weight : bold;
+}
+.description-section{
+    font-size : 14px;
+}
 .title{
     text-align : center;
     font-size: 350%;

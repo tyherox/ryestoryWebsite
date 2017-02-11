@@ -21,36 +21,45 @@
     align-self: center;
 }
 
-.homeDescriptionArea{
+.home-trestle-description-section{
     justify-content: center;
     background-color: #FFFFFF;
-    width: 90%;
+    width: 100%;
     max-width: 1750px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+    margin-right:auto;
 }
-.homeTrestleDescriptionText{
-    justify-content: center;
-    background-color: #FFFFFF;
-}
-
-.homeTrestleDescriptionTextClose{
+.home-trestle-description-text{
     text-align: center;
     background-color: #FFFFFF;
-    width: 90%;
+    width: 50%;
     max-width: 1000px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right : auto;
 }
 
-.homeDescriptionText{
+.home-description-section{
+    justify-content : center;
+    background-color : #FFFFFF;
+    width : 80%;
+    max-width : 1750px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.home-description-image{
+    vertical-align: middle;
+    align-self:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.home-description-text{
     vertical-align: middle;
     align-self: center;
-    margin-left : 2em;
-    margin-right : 2em;
+    margin-left : auto;
+    margin-right : auto;
 }
 
 .homeFeaturesArea{

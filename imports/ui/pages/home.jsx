@@ -39,79 +39,82 @@ export default class App extends Component {
                 <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
                 <div className = 'homeHeaderArea homeBgImagePng'>
                     <div className = 'homeHeaderText'>
-                        <h1 className="title">TRESTLE</h1>
-                        <br/><br/>
-                        <p className="titleDescription">How do you organize your desk?</p>
+                        <h1 className="title-brandname">TRESTLE</h1>
+                        <br/>
+                        <p className="description-brandname">How do you organize your desk?</p>
                         <Buffer />
                     </div>
                 </div>
-                <div className='homeDescriptionArea'>
+                <div className='home-trestle-description-section'>
                     <Grid fluid>
-                        <Buffer />
                         <Row >
                             <Buffer size ="30"/>
-                            <div className='homeTrestleDescriptionTextClose'>
-                                <h1 className='subtitle'>TRESTLE?</h1>
-                                <br/><br/>
-                                <p className='discription'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
+                            <div className='home-trestle-description-text'>
+                                <h1 className='title-section'>TRESTLE?</h1>
+                                <Buffer/>
+                                <p className='description-section'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
                             </div>
                             <Buffer size ="30"/>
                         </Row>
-                        <Buffer />
                         <hr/>
-                        <Buffer />
                         <Row>
-                            <div className ='homeDescriptionArea'>
-                                <Col md={6}>
+                            <Buffer size="30"/>
+                            <div className ='home-description-section'>
+                                <Col md={8}>
+                                    <div className="home-description-image">
                                     <Image src="/assets/whiteSheets.png" responsive />
+                                    </div>
                                 </Col>
-                                <Col md={6}>
-                                    <div className="homeDescriptionText">
-                                        <p className="texttitle">CLEAN SHEETS</p>
-                                        <p className="discription">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
+                                <Col md={4}>
+                                    <div className="home-description-text">
+                                        <p className="title-section-small">CLEAN SHEETS</p>
+                                        <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
                                         <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
                                     </div>
                                 </Col>
                             </div>
                         </Row>
-                        <Buffer />
+                        <Buffer size="30"/>
                         <hr/>
-                        <Buffer />
                         <Row>
-                            <div className ='homeDescriptionArea'>
-                                <Col md={6} mdPush={6}>
-                                    <Image src="/assets/whiteWidgets.png" responsive />
+                            <Buffer size="30"/>
+                            <div className ='home-description-section'>
+                                <Col md={4}>
+                                    <div className="home-description-text">
+                                        <p className="title-section-small">DELIGHTFUL WIDGETS</p>
+                                        <p className="description-section">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
+                                    </div>
                                 </Col>
-                                <Col md={6} mdPull={6}>
-                                    <div className="homeDescriptionText">
-                                        <p className="texttitle">DELIGHTFUL WIDGETS</p>
-                                        <p className="discription">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
+                                <Col md={8}>
+                                    <div className="home-description-image">
+                                        <Image src="/assets/whiteWidgets.png" responsive />
                                     </div>
                                 </Col>
                             </div>
+                            <Buffer size="30"/>
                         </Row>
-                        <Buffer />
                         <hr/>
-                        <Buffer />
                         <Row>
-                            <div className = 'homeDescriptionArea'>
-                                <Col md={6}>
-                                    <Image src="/assets/whiteLayout.png" responsive />
+                            <Buffer size="30"/>
+                            <div className ='home-description-section'>
+                                <Col md={8}>
+                                    <div className="home-description-image">
+                                        <Image src="/assets/whiteLayout.png" responsive />
+                                    </div>
                                 </Col>
-                                <Col md={6}>
-                                    <div className="homeDescriptionText">
-                                        <p className="texttitle">FLEXIBLE LAYOUT</p>
-                                        <p className="discription">Need a simple writing space? A word processing powerhouse? Anything in between? No sweat. Drag and drop widgets to build the layout you need. Save multiple layouts so you can quickly switch between sessions. Oh, and want to focus on a particular task? The pin and hide feature hides all your unpinned widgets.
-                                        <br/><br/>Build whatever layout you prefer in a giffy!</p>
+                                <Col md={4}>
+                                    <div className="home-description-text">
+                                        <p className="title-section-small">FLEXIBLE LAYOUT</p>
+                                        <p className="description-section">Need a simple writing space? A word processing powerhouse? Anything in between? No sweat. Drag and drop widgets to build the layout you need. Save multiple layouts so you can quickly switch between sessions. Oh, and want to focus on a particular task? The pin and hide feature hides all your unpinned widgets.
+                                            <br/><br/>Build whatever layout you prefer in a giffy!</p>
                                     </div>
                                 </Col>
                             </div>
+                            <Buffer size="30"/>
                         </Row>
-                        <Buffer />
                         <hr/>
-                        <Buffer />
                         <Row className='homeFeaturesArea'>
                             <Grid fluid>
                                 <Row>

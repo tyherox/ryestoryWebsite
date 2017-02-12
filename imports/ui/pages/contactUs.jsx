@@ -60,17 +60,17 @@ export default class App extends Component {
 
         return (
             <div className="contactUs-container">
-                <div className="contactUs-center">
-                    <div className="contactUs-title">Contact Us</div>
+                <div className="contactUs-section">
+                    <Buffer size="30"/>
+                    <h1 className="title-section">Contact Us</h1>
                     <Buffer size="30"/>
                     <Grid fluid>
                         <Row >
                             <Col md={6}>
-                                <div className="contactUs-text">
-                                    <p>
+                                <div className="contactUs-description-text">
+                                <p className="description-section-big">
                                         Your thoughts are available to us! Please send us any questions, requests, or feedback to improve our service!
-                                    </p>
-                                </div>
+                                </p></div>
                             </Col>
                             <Col md={6}>
                                 <form onSubmit={this.sendMessage}>
@@ -104,6 +104,7 @@ export default class App extends Component {
                             </Col>
                         </Row>
                     </Grid>
+                    <Buffer size="30"/>
                 </div>
             </div>
         );

@@ -6,17 +6,11 @@
     min-height: calc(100vh - 200px);
     width: 100%;
 }
-
-.contactUs-title{
-    font-size: 250%;
-    text-align: center;
-}
-
-.contactUs-center{
+.contactUs-section{
     background: white;
     padding: 2em;
     min-height: calc(100vh - 125px);
-
+    text-align: center;
     justify-content: center;
     width: 100%;
     max-width: 1000px;
@@ -25,6 +19,9 @@
     margin-right: auto;
 }
 
-.contactUs-text{
-    font-size: 175%;
+.contactUs-description-text{
+    text-align : left;
+    padding-top:5%;
+    padding-left:20%;
+    padding-right: 10%;
 }

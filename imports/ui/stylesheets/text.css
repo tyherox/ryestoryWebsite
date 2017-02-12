@@ -20,6 +20,9 @@
 .description-section{
     font-size : 14px;
 }
+.description-section-big{
+    font-size :18px;
+}
 .title{
     text-align : center;
     font-size: 350%;

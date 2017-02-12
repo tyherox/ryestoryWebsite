@@ -1,19 +1,19 @@
-.homePage{
+.home-page{
     position: relative;
     top: -75px;
     width: 100%;
     background: #FFFFFF;
 }
 
-.homeHeaderArea{
+.home-header-section{
     width: 100%;
     border: none;
-    height: calc(75vh + 75px);
+    height: calc(75vh + 150px);
     display: flex;
     justify-content: center;
 }
 
-.homeHeaderText{
+.home-header-text{
     color: White;
     text-align: center;
     line-height: normal;
@@ -27,8 +27,6 @@
     width: 100%;
     max-width: 1750px;
     display: block;
-    margin-left: auto;
-    margin-right:auto;
 }
 .home-trestle-description-text{
     text-align: center;
@@ -80,10 +78,10 @@
 }
 
 .home-features-text{
-
+    width : 80%;
 }
 
-.homeSubscribeArea{
+.home-subscribe-section{
     position: relative;
     background: #303030;
     width : 100%;
@@ -92,53 +90,31 @@
     top: 75px;
     display : flex;
     justify-content : center;
-    border-bottom: 2px solid gray;
 }
 
 
-.homeSubscribeText{
+.home-subscribe-text{
     color: White;
     text-align: center;
     line-height: normal;
     margin: 0!important;
 
 }
-.home_intro{
 
-}
-
-
-
-.homeDescriptionIconLayout{
-    position: relative;
-    height: 100%;
-    width : 100%;
-
-}
-.home_emailButton{
+.home-email-button{
     clear: both;
-    font-size: 125%;
+    font-size: 20px;
     padding-right: 25px;
     padding-left: 25px;
 }
-.homeEmailBox{
+
+.home-email-box{
     background: transparent;
     border : none;
     outline: none;
     width: 100%;
     min-width: 100px;
-
-    font-size: 125%;
-    border-bottom: 2px solid white;
-}
-.signMeUpButton:hover:enabled{
-    background-color: white;
-    color: #303030;
-    border-color: white;
-}
-
-.home_landingPage p{
-    font-size: 125%;
+    border-bottom: 2px solid darkgray;
 }
 
 .ghost{

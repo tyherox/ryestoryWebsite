@@ -1334,7 +1334,7 @@ select[multiple].input-lg {
     }
 }
 .navbar-default {
-    background-color: transparent;
+    background-color: #303030;
     border-color: rgba(0, 0, 0, 0);
 }
 .navbar-default .navbar-brand {
@@ -1359,7 +1359,7 @@ select[multiple].input-lg {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #555555;
+    color: #303030 ;
     background-color: rgba(0, 0, 0, 0);
 }
 .navbar-default .navbar-nav > .disabled > a,

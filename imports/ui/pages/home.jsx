@@ -35,15 +35,15 @@ export default class App extends Component {
 
     render() {
         return (
-            <div className="homePage">
+            <div className="home-page">
                 <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
-                <div className = 'homeHeaderArea homeBgImagePng'>
-                    <div className = 'homeHeaderText'>
+                <div className = 'home-header-section homeBgImagePng'>
+                    <div className = 'home-header-text'>
                         <h1 className="title-brandname">TRESTLE</h1>
                         <br/>
                         <p className="description-brandname">How do you organize your desk?</p>
-                        <Buffer />
                     </div>
+                    <Buffer/>
                 </div>
                 <div className='home-trestle-description-section'>
                     <Grid fluid>
@@ -56,7 +56,7 @@ export default class App extends Component {
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
                             </div>
-                            <Buffer size ="30"/>
+                            <Buffer size="30"/>
                         </Row>
                         <hr/>
                         <Row>
@@ -67,7 +67,7 @@ export default class App extends Component {
                                     <Image src="/assets/whiteSheets.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={4}>
+                                <Col md={4} >
                                     <div className="home-description-text">
                                         <p className="title-section-small">CLEAN SHEETS</p>
                                         <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
@@ -134,7 +134,7 @@ export default class App extends Component {
                                     <div className = 'subtitle-section'>
                                         <p>Full-Screen</p>
                                     </div>
-                                    <p className="description-section center-block">The maximum full view at your disposal. Need something else? You can always minimize!</p>
+                                    <p className="description-section center-block home-features-text">The maximum full view at your disposal. Need something else? You can always minimize!</p>
                                 </Col>
                                 <Col md={4}>
                                     <div className = 'home-features-image syntax-image'/>
@@ -142,7 +142,7 @@ export default class App extends Component {
                                     <div className = 'subtitle-section'>
                                         <p>Syntax</p>
                                     </div>
-                                    <p className="description-section center-block">Trestle supports Markdown! Mark it down.</p>
+                                    <p className="description-section center-block home-features-text">Trestle supports Markdown! Mark it down.</p>
                                 </Col>
                                 <Col md={4}>
                                     <div className = 'home-features-image export-image'/>
@@ -150,7 +150,7 @@ export default class App extends Component {
                                     <div className = 'subtitle-section'>
                                         <p>Export</p>
                                     </div>
-                                    <p className="description-section center-block">Export your work into docx, PDF, txt, and rtf files.</p>
+                                    <p className="description-section center-block home-features-text">Export your work into docx, PDF, txt, and rtf files.</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -160,7 +160,7 @@ export default class App extends Component {
                                     <div className = 'subtitle-section'>
                                         <p>Sentence Focus</p>
                                     </div>
-                                    <p className="description-section center-block">Focus on one sentence by graying everything else out... details will be uncovered!</p>
+                                    <p className="description-section center-block home-features-text">Focus on one sentence by graying everything else out... details will be uncovered!</p>
 
                                 </Col>
                                 <Col md={4}>
@@ -169,7 +169,7 @@ export default class App extends Component {
                                     <div className = 'subtitle-section'>
                                         <p>Themes</p>
                                     </div>
-                                    <p className="description-section center-block">Choose a polished theme to add yet another level of personalization.</p>
+                                    <p className="description-section center-block home-features-text">Choose a polished theme to add yet another level of personalization.</p>
 
                                 </Col>
                                 <Col md={4}>
@@ -178,7 +178,7 @@ export default class App extends Component {
                                     <div className = 'subtitle-section'>
                                         <p>Auto-Save</p>
                                     </div>
-                                    <p className="description-section center-block">Forgot to save? Don’t worry, it’s all there.</p>
+                                    <p className="description-section center-block home-features-text">Forgot to save? Don’t worry, it’s all there.</p>
                                 </Col>
                             </Row>
                         </Grid>
@@ -194,10 +194,9 @@ export default class App extends Component {
                               method="POST"
                               id="mG61Hd">
                             <input type = "email" placeholder ="Email : "
-                            className = 'home-email-box' required></input>
+                            className = 'home-email-box title-section-small ' required></input>
                             <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
-                            <Buffer size="30"/>
-                            <Button bsStyle="danger" type="submit" className = 'home_emailButton rye_button' ref="submitButton">Subscribe</Button>
+                            <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>
                 </div>

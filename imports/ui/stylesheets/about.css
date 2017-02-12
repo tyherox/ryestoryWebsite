@@ -1,31 +1,30 @@
-.aboutTitle{
-    font-size : 250%;
-}
-.aboutContainer{
+.about-container{
     background: white;
     min-height: calc(100vh - 125px);
     width: 100%;
 }
 
-.aboutOurStoryArea{
+.about-ourstory-section{
     background : transparent;
     width: 100%;
     border: none;
     display: flex;
     justify-content: center;
 }
-
-.aboutOurStoryText{
+.about-ourstory-text{
+    width : 70%;
     vertical-align: middle;
-    text-align: center;
     line-height: normal;
+    text-align: center;
     margin: 0!important;
     align-self: center;
     padding-left : 3em;
     padding-right : 3em;
     max-width: 1000px;
 }
-
+.about-ourstory-description{
+    text-align : left!important;
+}
 .aboutOurMembersArea{
     background : #ffffff;
     width: 100%;
@@ -40,8 +39,4 @@
     text-align: center;
     margin: 0!important;
     align-self: center;
-}
-
-.aboutOurMembersIconLayout{
-
 }

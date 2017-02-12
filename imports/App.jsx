@@ -45,8 +45,8 @@ class NavbarInstance extends Component{
         console.log(state);
         var style = document.getElementById("versatileStyle");
         console.log(style);
-        if(state) style.innerHTML = ".homePage{top: 0px;}";
-        else style.innerHTML = ".homePage{top: -75px;}";
+        if(state) style.innerHTML = ".home-page{top: 0px;}";
+        else style.innerHTML = ".home-page{top: -75px;}";
     }
 
     render(){

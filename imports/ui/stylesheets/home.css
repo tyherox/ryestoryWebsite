@@ -83,7 +83,7 @@
 
 }
 
-.homeSubscribeArea{
+.home-subscribe-section{
     position: relative;
     background: #303030;
     width : 100%;
@@ -96,7 +96,7 @@
 }
 
 
-.homeSubscribeText{
+.home-subscribe-text{
     color: White;
     text-align: center;
     line-height: normal;
@@ -121,7 +121,7 @@
     padding-right: 25px;
     padding-left: 25px;
 }
-.homeEmailBox{
+.home-email-box{
     background: transparent;
     border : none;
     outline: none;

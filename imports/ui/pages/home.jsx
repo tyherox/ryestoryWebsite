@@ -184,18 +184,18 @@ export default class App extends Component {
                         </Grid>
                 </div>
 
-                <div className='homeSubscribeArea'>
-
-                    <div className = 'homeSubscribeText'>
+                <div className='home-subscribe-section'>
+                    <div className = 'home-subscribe-text'>
+                        <Buffer size="30"/>
+                        <h1 className='title-section'>Subscribe</h1>
                         <Buffer/>
-                        <h1 className='subtitle'>Subscribe</h1>
-                        <Buffer size="25"/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
                               method="POST"
                               id="mG61Hd">
-                            <input type = "email" placeholder ="Subscribe to hear the latest news about Trestle!"
-                            className = 'homeEmailBox' required></input>
+                            <input type = "email" placeholder ="Email : "
+                            className = 'home-email-box' required></input>
+                            <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
                             <Buffer size="30"/>
                             <Button bsStyle="danger" type="submit" className = 'home_emailButton rye_button' ref="submitButton">Subscribe</Button>
                         </form>

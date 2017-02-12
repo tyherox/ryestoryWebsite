@@ -1,8 +1,8 @@
-.exportPng{
+.export-image{
     background: url('/assets/Export.png') no-repeat center center;
     background-size: contain;
 }
-.fullScreenPng{
+.full-screen-image{
     background: url('/assets/Fullscreen.png') no-repeat center center;
     background-size: contain;
 }
@@ -16,12 +16,12 @@
 .ryeLogoPng{
 
 }
-.savePng{
+.save-image{
     background: url('/assets/Save.png') no-repeat center center;
     background-size: contain;
     margin-top: 5%;
 }
-.sentenceFocusPng{
+.sentence-focus-image{
     background: url('/assets/SentenceFocus.png') no-repeat center center;
     background-size: contain;
     margin-top: 5%;
@@ -30,16 +30,16 @@
     background: url('/assets/sheets.png') no-repeat center center;
     background-size: contain;
 }
-.syntaxPng{
+.syntax-image{
     background: url('/assets/Syntax.png') no-repeat center center;
     background-size: contain;
 }
-.themesPng{
+.themes-image{
     background: url('/assets/Themes.png') no-repeat center center;
     background-size: contain;
     margin-top: 5%;
 }
-.widgetsPng{
+.widgets-image{
     background: url('/assets/Widgets.png') no-repeat center center;
     background-size: contain;
 }

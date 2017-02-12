@@ -188,6 +188,8 @@ export default class App extends Component {
                     <div className = 'home-subscribe-text'>
                         <Buffer size="30"/>
                         <h1 className='title-section'>Subscribe</h1>
+                        <Buffer size="10"/>
+                        <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
                         <Buffer/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
@@ -195,7 +197,6 @@ export default class App extends Component {
                               id="mG61Hd">
                             <input type = "email" placeholder ="Email : "
                             className = 'home-email-box title-section-small ' required></input>
-                            <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
                             <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>

@@ -20,6 +20,13 @@
     text-align: center;
 }
 
+#blog-subTitle{
+    font-size: 150%;
+    color: gray;
+    text-align: center;
+}
+
+
 .blogEntry-preview{
     margin-bottom: 50px;
 }
@@ -27,6 +34,7 @@
 .blogEntry-previewText{
     display: block;
     font-size: 125%;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -34,6 +42,11 @@
     display: block;
     font-size: 125%;
     margin-bottom: 10px;
+}
+
+.blogEntry-header{
+    font-size: 250%;
+    text-align: left;
 }
 
 .blogEntry-title{

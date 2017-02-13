@@ -68,11 +68,15 @@ export default class App extends Component {
                                     </div>
                                 </Col>
                                 <Col md={3} >
-                                    <div className="home-description-text">
+                                    <div className="outer">
+                                        <div className="middle">
+                                            <div className="inner">
+
                                         <p className="title-section-small">CLEAN SHEETS</p>
                                         <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
                                         <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
-                                    </div>
+
+                                            </div></div></div>
                                 </Col>
                             </div>
                         </Row>
@@ -82,6 +86,7 @@ export default class App extends Component {
                             <Buffer size="30"/>
                             <div className ='home-description-section'>
                                 <Col md={3}>
+
                                     <div className="home-description-text">
                                         <p className="title-section-small">DELIGHTFUL WIDGETS</p>
                                         <p className="description-section">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
@@ -196,14 +201,9 @@ export default class App extends Component {
                               method="POST"
                               id="mG61Hd">
                             <input type = "email" placeholder ="Email : "
-<<<<<<< HEAD
                             className = 'home-email-box subtitle-section ' required></input>
-                            <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
+
                            <br/> <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
-=======
-                            className = 'home-email-box title-section-small ' required></input>
-                            <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
->>>>>>> refs/remotes/origin/master
                         </form>
                     </div>
                 </div>

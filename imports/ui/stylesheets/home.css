@@ -27,12 +27,13 @@
     width: 100%;
     max-width: 1750px;
     display: block;
+    margin : auto;
 }
 .home-trestle-description-text{
     text-align: center;
     background-color: #FFFFFF;
-    width: 50%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 500px;
     display: block;
     margin-left: auto;
     margin-right : auto;
@@ -41,10 +42,9 @@
 .home-description-section{
     justify-content : center;
     background-color : #FFFFFF;
-    width : 80%;
+    width : 90%;
     max-width : 1750px;
-    margin-left:auto;
-    margin-right:auto;
+    margin : auto;
     display:block;
 }
 .home-description-image{
@@ -53,16 +53,7 @@
     margin-left:auto;
     margin-right:auto;
 }
-.home-description-text{
-    padding-top : 25%;
-    padding-bottom : 25%;
-    padding-left : 10%;
-    padding-right : 10%;
-    vertical-align: middle;
-    align-self: center;
-    margin-left : auto;
-    margin-right : auto;
-}
+
 
 .home-features-section{
     text-align : center;

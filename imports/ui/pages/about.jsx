@@ -15,7 +15,7 @@ export default class App extends Component {
             <div className='about-container'>
                 <div className='about-ourstory-section'>
                     <div className="about-ourstory-text">
-                    <Buffer size="45"/>
+                    <Buffer size="30"/>
                     <h1 className="title-section">Our Story</h1>
                         <Buffer size="30"/>
                     <Grid fluid>

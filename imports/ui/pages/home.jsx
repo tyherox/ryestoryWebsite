@@ -188,15 +188,22 @@ export default class App extends Component {
                     <div className = 'home-subscribe-text'>
                         <Buffer size="30"/>
                         <h1 className='title-section'>Subscribe</h1>
+                        <Buffer size="10"/>
+                        <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
                         <Buffer/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
                               method="POST"
                               id="mG61Hd">
                             <input type = "email" placeholder ="Email : "
+<<<<<<< HEAD
                             className = 'home-email-box subtitle-section ' required></input>
                             <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
                            <br/> <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
+=======
+                            className = 'home-email-box title-section-small ' required></input>
+                            <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
+>>>>>>> refs/remotes/origin/master
                         </form>
                     </div>
                 </div>

@@ -12,11 +12,13 @@ export default class App extends Component {
 
     render() {
         return (
+
             <div className='about-container'>
+
                 <div className='about-ourstory-section'>
                     <div className="about-ourstory-text">
                     <Buffer size="30"/>
-                    <h1 className="title-section">Our Story</h1>
+                    <div className="title-section">Our Story</div>
                         <Buffer size="30"/>
                     <Grid fluid>
                         <Row>

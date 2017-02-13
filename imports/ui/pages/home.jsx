@@ -62,22 +62,20 @@ export default class App extends Component {
                         <Row>
                             <Buffer size="30"/>
                             <div className ='home-description-section'>
-                                <Col md={9}>
+                                <Col md={9} mdPull={3}>
                                     <div className="home-description-image">
                                     <Image src="/assets/whiteSheets.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={3} >
-                                    <div className="outer">
-                                        <div className="middle">
-                                            <div className="inner">
 
+                                <Col md={3} mdPush={9} >
+                                    <div className="home-description-text">
                                         <p className="title-section-small">CLEAN SHEETS</p>
                                         <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
                                         <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
-
-                                            </div></div></div>
+                                    </div>
                                 </Col>
+
                             </div>
                         </Row>
                         <Buffer size="30"/>
@@ -104,12 +102,12 @@ export default class App extends Component {
                         <Row>
                             <Buffer size="30"/>
                             <div className ='home-description-section'>
-                                <Col md={9}>
+                                <Col md={9} mdPull={3}>
                                     <div className="home-description-image">
                                         <Image src="/assets/whiteLayout.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={3}>
+                                <Col md={3} mdPush={9}>
                                     <div className="home-description-text">
                                         <p className="title-section-small">FLEXIBLE LAYOUT</p>
                                         <p className="description-section">Need a simple writing space? A word processing powerhouse? Anything in between? No sweat. Drag and drop widgets to build the layout you need. Save multiple layouts so you can quickly switch between sessions. Oh, and want to focus on a particular task? The pin and hide feature hides all your unpinned widgets.
@@ -203,7 +201,7 @@ export default class App extends Component {
                             <input type = "email" placeholder ="Email : "
                             className = 'home-email-box subtitle-section ' required></input>
 
-                           <br/> <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
+                           <br/> <br/><Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>
                 </div>

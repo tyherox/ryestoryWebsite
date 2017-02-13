@@ -1,11 +1,9 @@
-.homeLink{
-    color: #F5F5F5;
-}
+
 
 .navBarLogo {
     position: relative;
     float: left !important;
-    left : 30px;
+
     display: block;
     background: url('/assets/ryeLogo.png') no-repeat center center;
     background-size: contain;

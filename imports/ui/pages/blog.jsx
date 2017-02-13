@@ -47,8 +47,10 @@ export default class App extends Component {
                            key={key++}/>
             return (
                 <div id="blog-container">
+                    <div id="blog-section">
                     <div id="blog-entries">
                         {entry}
+                    </div>
                     </div>
                 </div>
             );
@@ -66,8 +68,8 @@ export default class App extends Component {
             });
             return (
                 <div id="blog-container">
-                    <div id="blog-title">Ryestory Blog</div>
-                    <div id="blog-subTitle">Talking about cool stuff here</div>
+                    <div className="title-section">Ryestory Blog</div>
+                    <div className="description-brandname">Talking about cool stuff here</div>
                     <div id="blog-entries">
                         {entry}
                     </div>

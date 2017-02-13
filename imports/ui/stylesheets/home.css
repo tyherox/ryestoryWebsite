@@ -54,6 +54,10 @@
     margin-right:auto;
 }
 .home-description-text{
+    padding-top : 25%;
+    padding-bottom : 25%;
+    padding-left : 10%;
+    padding-right : 10%;
     vertical-align: middle;
     align-self: center;
     margin-left : auto;

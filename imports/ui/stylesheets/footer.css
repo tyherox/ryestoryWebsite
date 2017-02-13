@@ -15,8 +15,8 @@
     height: 50px;
     width: 100px;
     float : left;
-    margin-left : 10% !important;
     margin : auto;
+    margin-left : 15px!important;
 }
 
 .footer-facebook{

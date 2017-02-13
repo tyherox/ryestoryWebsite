@@ -16,11 +16,13 @@ export default class BlogEntry extends Component {
 
     render() {
         if(this.props.view=="preview"){
+            console.log("RETURNING:", this.props);
             return(
                 <div className="blogEntry-preview">
                     <p className="blogEntry-title">{this.props.title}</p>
                     <div className="blogEntry-date">{this.props.date}</div>
                     <div className="blogEntry-previewText">{this.props.preview}</div>
+                    <Buffer size="5"/>
                     <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog/'+ this.props.title +'')}>Read More</Button>
                 </div>
             )
@@ -29,9 +31,10 @@ export default class BlogEntry extends Component {
             return(
                 <div className="blogEntry-post">
                     <p className="blogEntry-header">{this.props.title}</p>
-                    <Buffer/>
                     <div className="blogEntry-date">{this.props.date}</div>
+                    <Buffer size="5"/>
                     <div className="blogEntry-content">{this.props.content}</div>
+                    <Buffer/>
                     <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog')}>Back</Button>
                 </div>
             )

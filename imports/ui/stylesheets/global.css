@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: openSans-Bold;
-    src: url(/open-sans/OpenSans-Regular.ttf);
+    src: url(/open-sans/OpenSans-Bold.ttf);
 }
 
 h1, h2, p, ul, li {

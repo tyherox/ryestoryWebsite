@@ -42,27 +42,28 @@
 .home-description-section{
     justify-content : center;
     background-color : #FFFFFF;
-    width : 90%;
-    max-width : 1750px;
+    width : 100%;
+    max-width : 1000px;
     margin : auto;
     display:block;
 }
 .home-description-image{
-    vertical-align: middle;
+
     align-self:center;
     margin-left:auto;
     margin-right:auto;
 }
 
-
+.home-description-text{
+    margin-top : 40%;
+}
 .home-features-section{
     text-align : center;
     justify-content : center;
     background-color : #FFFFFF;
-    width : 80%;
-    max-width : 1750px;
-    margin-left:auto;
-    margin-right:auto;
+    width : 100%;
+    max-width : 1000px;
+    margin : auto;
     display:block;
 }
 
@@ -79,12 +80,14 @@
 .home-subscribe-section{
     position: relative;
     background: #303030;
-    width : 100%;
     border : none;
     height : 50vh;
     top: 75px;
     display : flex;
     justify-content : center;
+    width : 100%;
+    max-width : 1750px;
+    margin : auto;
 }
 
 

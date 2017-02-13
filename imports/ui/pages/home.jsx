@@ -67,17 +67,15 @@ export default class App extends Component {
                                     <Image src="/assets/whiteSheets.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={3} >
-                                    <div className="outer">
-                                        <div className="middle">
-                                            <div className="inner">
 
+                                <Col md={3} >
+                                    <div className="home-description-text">
                                         <p className="title-section-small">CLEAN SHEETS</p>
                                         <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
                                         <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
-
-                                            </div></div></div>
+                                    </div>
                                 </Col>
+
                             </div>
                         </Row>
                         <Buffer size="30"/>
@@ -203,7 +201,7 @@ export default class App extends Component {
                             <input type = "email" placeholder ="Email : "
                             className = 'home-email-box subtitle-section ' required></input>
 
-                           <br/> <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
+                           <br/> <br/><Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>
                 </div>

@@ -61,7 +61,7 @@ class NavbarInstance extends Component{
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav pullRight >
-                    <LinkContainer to="/">
+                    <LinkContainer to="/home">
                         <NavItem>HOME</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/about">

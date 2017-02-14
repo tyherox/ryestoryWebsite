@@ -11,7 +11,7 @@
     background: url('/assets/ryeLogo.png') no-repeat center center;
     background-size: contain;
     width:100px;
-    margin-left: 10px;
+    margin-left: 10vw!important;
 }
 
 .navBarLogo:hover{

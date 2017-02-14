@@ -71,15 +71,12 @@ export default class App extends Component {
                                 <button className="home-trestle-playButton" onClick = {this.showVideo.bind(this)}></button>
                                 <Modal show={this.state.showVideo} onHide={this.closeVideo.bind(this)}>
                                     <Modal.Header closeButton>
-                                        <Modal.Title>Introducing Trestle</Modal.Title>
                                     </Modal.Header>
                                     <Modal.Body>
-                                        <video width="100%" controls>
-                                            <source src="assets/Trestle-Teaser.mp4" type="video/mp4"/>
-                                        </video>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/znegsQKJ43U?autoplay=1" frameBorder="0" allowFullScreen ></iframe>
                                     </Modal.Body>
                                     <Modal.Footer>
-                                        <Button onClick={this.close}>Close</Button>
+                                        <Button onClick={this.closeVideo.bind(this)}>Close</Button>
                                     </Modal.Footer>
                                 </Modal>
                             </div>

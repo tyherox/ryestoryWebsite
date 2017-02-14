@@ -26,10 +26,11 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    opacity: .75;
 }
 
 .home-trestle-playButton:hover{
-    opacity: .5;
+    opacity: 1;
 }
 
 .home-header-text{

@@ -54,8 +54,9 @@ class NavbarInstance extends Component{
         return(
         <Navbar inverse collapseOnSelect onToggle={this.resetHome.bind(this)}>
             <Navbar.Header>
+
                 <Navbar.Brand>
-                    <div className = 'navBarLogo' onClick={()=>browserHistory.push('/')}></div>
+                        <div className = 'navBarLogo' onClick={()=>browserHistory.push('/')}></div>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>

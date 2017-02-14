@@ -88,7 +88,7 @@ export default class App extends Component {
             });
             return (
                 <div id="blog-container">
-                    <div className="title-section">Ryestory Blog</div>
+                    <div><h1  className="title-section">Ryestory Blog</h1></div>
                     <div className="description-brandname">Talking about cool stuff here</div>
                     <div id="blog-entries">
                         {entry}

@@ -1,7 +1,7 @@
   import React from 'react';
   import { Meteor } from 'meteor/meteor';
   import { render } from 'react-dom';
-  import { Router, Route, Link, browserHistory, IndexRedirect} from 'react-router'
+  import { Router, Route, browserHistory, IndexRedirect} from 'react-router'
 
   import App from '../imports/App.jsx';
   import Home from '../imports/ui/pages/home.jsx';

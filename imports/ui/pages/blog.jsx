@@ -16,7 +16,7 @@ export default class App extends Component {
         this.state = {blogs:[
             {
                 date: "15, February, 2017",
-                title: "What program should I write with...",
+                title: "What program should I write with ?",
                 content:
                     <div>
                         <Buffer />
@@ -54,9 +54,7 @@ export default class App extends Component {
 
         if(this.props.params.entries){
             entry = this.state.blogs.find(function(elem){
-                console.log(elem["title"],":", self.props.params.entries);
-                console.log("FOUND?", elem["title"] == self.props.params.entries);
-                return elem["title"] == self.props.params.entries;
+                return elem["date"] == self.props.params.entries;
             })
             console.log("FOUND:", entry);
             entry = <Entry date={entry.date}

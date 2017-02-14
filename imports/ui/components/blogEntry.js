@@ -23,7 +23,7 @@ export default class BlogEntry extends Component {
                     <div className="blogEntry-date">{this.props.date}</div>
                     <div className="blogEntry-previewText">{this.props.preview}</div>
                     <Buffer size="5"/>
-                    <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog/'+ this.props.title +'')}>Read More</Button>
+                    <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog/'+ this.props.date +'')}>Read More</Button>
                 </div>
             )
         }

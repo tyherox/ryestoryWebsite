@@ -16,7 +16,7 @@
     width: 100px;
     float : left;
     margin : auto;
-    margin-left : 10vw!important;
+    margin-left : calc(2vw + 15px)!important;
 }
 
 .footer-facebook{

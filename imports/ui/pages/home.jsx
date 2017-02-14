@@ -54,6 +54,8 @@ export default class App extends Component {
                                 <p className='description-section'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
+                                <Buffer/>
+                                <button className="home-trestle-playButton"></button>
                             </div>
                             <Buffer size="20"/>
                         </Row>

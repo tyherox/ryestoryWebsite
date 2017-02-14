@@ -4,8 +4,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import {Grid, Row, Col, Panel, Jumbotron, Image, Button, FormGroup, FormControl, ControlLabel, Modal} from 'react-bootstrap'
-import Scroll from 'react-scroll';
+import {Grid, Row, Col,Image, Button,Modal} from 'react-bootstrap'
 import Buffer from '../components/buffer.js';
 
 export default class App extends Component {
@@ -13,10 +12,6 @@ export default class App extends Component {
     constructor(props){
         super(props);
         this.state = {showVideo: false};
-    }
-
-    toSubscribe() {
-        Scroll.animateScroll.scrollTo(this.refs.subscribe.offsetTop);
     }
 
     handleSubmit() {
@@ -28,14 +23,6 @@ export default class App extends Component {
         var submission = ReactDOM.findDOMNode(this.refs.submission);
         submission.style.display = 'none';
         submission.disabled = true;
-    }
-
-    showProgress(){
-        console.log("SHOWING");
-        var submitButton = ReactDOM.findDOMNode(this.refs.submitButton);
-        submitButton.textContent = "Submitting...!";
-        submitButton.style.color = 'grey';
-        submitButton.disabled = true;
     }
 
     showVideo(){

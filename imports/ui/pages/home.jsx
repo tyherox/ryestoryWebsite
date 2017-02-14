@@ -4,11 +4,16 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import {Grid, Row, Col, Panel, Jumbotron, Image, Button, FormGroup, FormControl, ControlLabel, HelpBlock} from 'react-bootstrap'
+import {Grid, Row, Col, Panel, Jumbotron, Image, Button, FormGroup, FormControl, ControlLabel, Modal} from 'react-bootstrap'
 import Scroll from 'react-scroll';
 import Buffer from '../components/buffer.js';
 
 export default class App extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {showVideo: false};
+    }
 
     toSubscribe() {
         Scroll.animateScroll.scrollTo(this.refs.subscribe.offsetTop);
@@ -33,6 +38,14 @@ export default class App extends Component {
         submitButton.disabled = true;
     }
 
+    showVideo(){
+        this.setState({showVideo: true});
+    }
+
+    closeVideo(){
+        this.setState({showVideo: false});
+    }
+
     render() {
         return (
             <div className="home-page">
@@ -54,6 +67,21 @@ export default class App extends Component {
                                 <p className='description-section'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
+                                <Buffer/>
+                                <button className="home-trestle-playButton" onClick = {this.showVideo.bind(this)}></button>
+                                <Modal show={this.state.showVideo} onHide={this.closeVideo.bind(this)}>
+                                    <Modal.Header closeButton>
+                                        <Modal.Title>Introducing Trestle</Modal.Title>
+                                    </Modal.Header>
+                                    <Modal.Body>
+                                        <video width="100%" controls>
+                                            <source src="assets/Trestle-Teaser.mp4" type="video/mp4"/>
+                                        </video>
+                                    </Modal.Body>
+                                    <Modal.Footer>
+                                        <Button onClick={this.close}>Close</Button>
+                                    </Modal.Footer>
+                                </Modal>
                             </div>
                             <Buffer size="20"/>
                         </Row>

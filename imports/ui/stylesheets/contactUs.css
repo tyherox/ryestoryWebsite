@@ -3,7 +3,7 @@
     background: white;
     padding-right: 2em;
     padding-left: 2em;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 100px);
     width: 100%;
 }
 .contactUs-section{

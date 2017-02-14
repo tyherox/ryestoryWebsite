@@ -1,13 +1,17 @@
 
+.container{
+    width:100%!important;
+    margin-left: 10px;
+}
 
 .navBarLogo {
     position: relative;
     float: left !important;
-
     display: block;
     background: url('/assets/ryeLogo.png') no-repeat center center;
     background-size: contain;
     width:100px;
+    margin-left: 10px;
 }
 
 .navBarLogo:hover{

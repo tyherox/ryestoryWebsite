@@ -43,12 +43,11 @@ export default class App extends Component {
                         <br/>
                         <p className="description-brandname">How do you organize your desk?</p>
                     </div>
-                    <Buffer/>
                 </div>
                 <div className='home-trestle-description-section'>
                     <Grid fluid>
                         <Row >
-                            <Buffer size ="30"/>
+                            <Buffer size ="20"/>
                             <div className='home-trestle-description-text'>
                                 <h1 className='title-section'>TRESTLE?</h1>
                                 <Buffer/>
@@ -56,23 +55,23 @@ export default class App extends Component {
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
                             </div>
-                            <Buffer size="30"/>
+                            <Buffer size="20"/>
                         </Row>
                         <hr/>
                         <Row>
                             <Buffer size="30"/>
                             <div className ='home-description-section'>
-                                <Col md={9} mdPull={3}>
+                                <Col md={8}>
                                     <div className="home-description-image">
                                     <Image src="/assets/whiteSheets.png" responsive />
                                     </div>
                                 </Col>
 
-                                <Col md={3} mdPush={9} >
-                                    <div className="home-description-text">
+                                <Col md={4}>
+                                    <div className="home-description-text home-description-text-left">
                                         <p className="title-section-small">CLEAN SHEETS</p>
                                         <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
-                                        <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
+                                            <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
                                     </div>
                                 </Col>
 
@@ -83,18 +82,17 @@ export default class App extends Component {
                         <Row>
                             <Buffer size="30"/>
                             <div className ='home-description-section'>
-                                <Col md={3}>
-
-                                    <div className="home-description-text">
-                                        <p className="title-section-small">DELIGHTFUL WIDGETS</p>
-                                        <p className="description-section">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
-                                    </div>
-                                </Col>
-                                <Col md={9}>
+                                <Col md={8} mdPush={4}>
                                     <div className="home-description-image">
                                         <Image src="/assets/whiteWidgets.png" responsive />
                                     </div>
                                 </Col>
+                                <Col md={4} mdPull={8}>
+                                    <div className="home-description-text home-description-text-right">
+                                        <p className="title-section-small">DELIGHTFUL WIDGETS</p>
+                                        <p className="description-section">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
+                                    </div>
+                                </Col>
                             </div>
                         </Row>
                         <Buffer size="30"/>
@@ -102,32 +100,33 @@ export default class App extends Component {
                         <Row>
                             <Buffer size="30"/>
                             <div className ='home-description-section'>
-                                <Col md={9} mdPull={3}>
+                                <Col md={8}>
                                     <div className="home-description-image">
                                         <Image src="/assets/whiteLayout.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={3} mdPush={9}>
-                                    <div className="home-description-text">
+                                <Col md={4}>
+                                    <div className="home-description-text home-description-text-left">
                                         <p className="title-section-small">FLEXIBLE LAYOUT</p>
-                                        <p className="description-section">Need a simple writing space? A word processing powerhouse? Anything in between? No sweat. Drag and drop widgets to build the layout you need. Save multiple layouts so you can quickly switch between sessions. Oh, and want to focus on a particular task? The pin and hide feature hides all your unpinned widgets.
+                                        <p className="description-section">Need a simple writing space? A word processing powerhouse? No sweat. Drag and drop widgets to build the layout you need and save multiple layouts so you use them later. Oh, and want to focus on a particular task? Click the hid button to hide all your unpinned widgets.
                                             <br/><br/>Build whatever layout you prefer in a giffy!</p>
                                     </div>
                                 </Col>
                             </div>
-                            <Buffer size="30"/>
+
                         </Row>
+
                         <Buffer size="30"/>
                         <hr/>
                     </Grid>
                 </div>
-                <Buffer size="30"/>
+                <Buffer size="20"/>
                 <div className='home-features-section'>
                     <Grid fluid>
                             <Row>
                                 <Col md={12}>
                                     <h1 className="title-section">FEATURES</h1>
-                                    <Buffer size ="30"/>
+                                    <Buffer size ="20"/>
                                 </Col>
                             </Row>
                             <Row>
@@ -189,7 +188,7 @@ export default class App extends Component {
 
                 <div className='home-subscribe-section'>
                     <div className = 'home-subscribe-text'>
-                        <Buffer size="30"/>
+                        <Buffer size="20"/>
                         <h1 className='title-section'>Subscribe</h1>
                         <Buffer size="10"/>
                         <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>

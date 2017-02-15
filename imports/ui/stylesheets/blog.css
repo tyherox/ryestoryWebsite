@@ -1,7 +1,7 @@
 #blog-container{
     background: white;
     padding: 20px;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 110px);
     width: 100%;
 }
 

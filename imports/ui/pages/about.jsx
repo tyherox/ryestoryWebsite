@@ -4,7 +4,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import Buffer from '../components/buffer.js';
-import {Grid, Row, Col, Panel, Jumbotron, Image, Button, FormGroup, FormControl, ControlLabel, HelpBlock} from 'react-bootstrap';
+import {Grid, Row, Col, Image,} from 'react-bootstrap';
 
 export default class App extends Component {
 

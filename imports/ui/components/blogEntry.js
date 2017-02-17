@@ -16,7 +16,6 @@ export default class BlogEntry extends Component {
 
     render() {
         if(this.props.view=="preview"){
-            console.log("RETURNING:", this.props);
             return(
                 <div className="blogEntry-preview">
                     <p className="blogEntry-title">{this.props.title}</p>

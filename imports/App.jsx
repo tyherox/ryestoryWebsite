@@ -26,6 +26,7 @@ export default class App extends Component {
     }
 
     render() {
+
         return (
             <div className = "masterContainer">
                 <NavbarInstance/>
@@ -62,7 +63,7 @@ class NavbarInstance extends Component{
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav pullRight >
-                    <LinkContainer to="/home">
+                    <LinkContainer to="/">
                         <NavItem>HOME</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/about">

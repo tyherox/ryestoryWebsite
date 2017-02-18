@@ -9,11 +9,12 @@ import Buffer from '../components/buffer.js';
 
 var key = 0;
 
-export default class App extends Component {
+export default class Blog extends Component {
 
     constructor(props){
         super(props);
-        this.state = {blogs:[
+        this.state = {
+            blogs:[
             {
                 date: "15, February, 2017",
                 title: "What program should I write with ?",
@@ -39,18 +40,13 @@ export default class App extends Component {
                         </p>
                     </div>,
                 preview: <p>With most of us having that one writing app we unconsciously open to write that assignment or report, it’s not a question we often ask ourselves. Writing apps, for the most part, have done an adequate job in allowing us to translate our thoughts onto paper. </p>
-            }
+            },
         ]}
-    }
-
-    showPost(){
-        
     }
 
     render() {
 
-        var entry,
-            self = this;
+        var entry, self = this;
 
         if(this.props.params.entries){
             entry = this.state.blogs.find(function(elem){
@@ -74,12 +70,13 @@ export default class App extends Component {
             );
         }
         else{
-            entry = this.state.blogs.map(function(entry){
+
+            entry = this.state.blogs.map(function(blog){
                 return(
-                    <Entry date={entry.date}
-                           title={entry.title}
-                           content={entry.content}
-                           preview={entry.preview}
+                    <Entry date={blog.date}
+                           title={blog.title}
+                           content={blog.content}
+                           preview={blog.preview}
                            view="preview"
                            key={key++}/>
                 )

@@ -201,7 +201,7 @@ export default class App extends Component {
                 <div className='home-subscribe-section'>
                     <div className = 'home-subscribe-text'>
                         <Buffer size="20"/>
-                        <h1 className='title-section'>Subscribe</h1>
+                        <h1 className='title-section'>SUBSCRIBE</h1>
                         <Buffer size="10"/>
                         <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
                         <Buffer/>

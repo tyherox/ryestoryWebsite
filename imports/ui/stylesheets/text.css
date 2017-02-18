@@ -12,20 +12,20 @@
 
 .title-section{
     font-size : 250%;
-    font-weight : bold;
+
     text-align: center;
     padding: 5px;
 
 }
 .title-section-small{
     font-size: 200%;
-    font-weight : bold;
+
     text-aling : center;
     padding: 5px;
 }
 .subtitle-section{
     font-size : 140%;
-    font-weight : bold;
+
     padding: 5px;
 }
 .description-section{

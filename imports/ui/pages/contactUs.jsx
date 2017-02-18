@@ -62,7 +62,7 @@ export default class App extends Component {
             <div className="contactUs-container">
                 <div className="contactUs-section">
                     <Buffer size="30"/>
-                    <div><h1 className="title-section">Contact Us</h1></div>
+                    <div><h1 className="title-section">CONTACT US</h1></div>
                     <Buffer size="30"/>
                     <Grid fluid>
                         <Row >

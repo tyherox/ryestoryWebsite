@@ -84,8 +84,7 @@ export default class Blog extends Component {
             return (
                 <div id="blog-container">
                     <Buffer size="30"/>
-                    <div><h1  className="title-section">Ryestory Blog</h1></div>
-                    <div className="description-brandname">Talking about cool stuff here</div>
+                    <div><h1  className="title-section">RYESTORY BLOG</h1></div>
                     <div id="blog-entries">
                         {entry}
                     </div>

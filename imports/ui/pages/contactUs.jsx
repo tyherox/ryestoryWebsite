@@ -69,7 +69,7 @@ export default class App extends Component {
                             <Col md={6}>
                                 <div className="contactUs-description-text">
                                 <p className="description-section-big">
-                                        Your thoughts are available to us! Please send us any questions, requests, or feedback to improve our service!
+                                        Your thoughts are important to us! Please send us any questions, requests, or feedback to improve our service!
                                 </p></div>
                             </Col>
                             <Col md={6}>

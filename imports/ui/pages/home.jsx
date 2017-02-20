@@ -120,7 +120,7 @@ export default class App extends Component {
                                 <Col md={4}>
                                     <div className="home-description-text home-description-text-left">
                                         <p className="title-section-small">FLEXIBLE LAYOUT</p>
-                                        <p className="description-section">Need a simple writing space? A word processing powerhouse? No sweat. Drag and drop widgets to build the layout you need and save multiple layouts so you use them later. Oh, and want to focus on a particular task? Click the hid button to hide all your unpinned widgets.
+                                        <p className="description-section">Need a simple writing space? A word processing powerhouse? No sweat. Drag and drop widgets to build the layout you need and save multiple layouts so you use them later. Oh, and want to focus on a particular task? Click the hide button to hide all your unpinned widgets.
                                             <br/><br/>Build whatever layout you prefer in a giffy!</p>
                                     </div>
                                 </Col>

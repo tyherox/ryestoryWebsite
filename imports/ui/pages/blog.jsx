@@ -16,8 +16,28 @@ export default class Blog extends Component {
         this.state = {
             blogs:[
             {
-                date: "15, February, 2017",
-                title: "What program should I write with ?",
+                date: "20, February, 2017",
+                title: "Welcome to our blog!",
+                content:
+                    <div>
+                        <p>Hey there guys!
+
+                            Trestle has been in the works for several months and we finally feel comfortable introducing it to the world. With the small reveal on our Facebook page last week we wanted to create venue of communication we can establish right here on our website. With that said, it is with great pleasure that we a announce the creation of a Ryestory blog! As the first post on our lovely cozy blog, we’ll get straight to what you can expect from this new venue.
+                            <br/><br/>
+                            First - weekly updates! Trestle is still in it’s infancy and the product by nature is very flexible. We’re always looking for new awesome features to add and refine. With all this designign and building, it’s easy to get lost in our own head. That’s why transparency is of big concern for us at Ryestory. We want to make sure that Trestle is ultimately an app that you’d want to use. You can expect a weekly post every Friday detailing all the little changes and tweaks we’ve made before we head into the weekend.
+                            <br/><br/>
+                            Second, Important announcements like a major version change or a big feature implementation will also be posted here. These will differ from the weekly updates in their scope and depth. While weekly updates can tend to be technical and rather detailed, these announcements will be more consumable and big-picture stuff. However, as much as we’d love to have exciting new things to show every week or two, these announcements will be more sparse and will likely be posted monthly or bi-monthly.
+                            <br/><br/>
+                            Lastly, we’re planning on engaging with you guys more directly with community events. Some things we have in mind are writing competitions, showcases of how people use Trestle’s layout, interviews with some of you guys - any way for us to put the spotlight on our community. This is still in development as we have yet to ascertain how it will work but stay tuned!
+                            <br/><br/>
+                            And that’s about it! Check up on us often to give us feedback or concerns as we are always eager to hear from you guys. Have a good day!
+                        </p>
+                    </div>,
+                preview: <p>Trestle has been in the works for several months and we finally feel comfortable introducing it to the world. With the small reveal on our Facebook page last week we wanted to create venue of communication we can establish right here on our website.</p>
+            },
+            {
+                date: "22, February, 2017",
+                title: "What program should I write with?",
                 content:
                     <div>
                         <Buffer />

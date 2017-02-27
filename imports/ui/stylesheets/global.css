@@ -22,6 +22,14 @@ h1, h2, p, ul, li {
     font-family: openSans;
 }
 
+.masterContainer{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background-color: #303030;
+}
+
+
 b{
   font-family: openSans-Bold;
 }

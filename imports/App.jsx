@@ -12,8 +12,9 @@ import './ui/stylesheets/footer.css'
 import './ui/stylesheets/text.css'
 import './ui/stylesheets/image.css'
 import './ui/stylesheets/blog.css'
-import './ui/stylesheets/contact-us.css'
-import './ui/stylesheets/styling.css'
+import './ui/stylesheets/about.css'
+import './ui/stylesheets/contactUs.css'
+import './ui/stylesheets/align.css'
 import {Navbar, NavItem, Nav} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 import {browserHistory} from 'react-router';
@@ -27,7 +28,7 @@ export default class App extends Component {
     render() {
 
         return (
-            <div className = "contain">
+            <div className = "masterContainer">
                 <NavbarInstance/>
                 {this.props.children}
                 <div className = 'footer'>

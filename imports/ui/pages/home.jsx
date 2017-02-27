@@ -60,7 +60,7 @@ export default class App extends Component {
                                     <Modal.Header closeButton>
                                     </Modal.Header>
                                     <Modal.Body>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/znegsQKJ43U?autoplay=1" frameBorder="0" allowFullScreen ></iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY" frameBorder="0" allowFullScreen ></iframe>
                                     </Modal.Body>
                                     <Modal.Footer>
                                         <Button onClick={this.closeVideo.bind(this)}>Close</Button>

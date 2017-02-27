@@ -59,54 +59,61 @@ export default class App extends Component {
             thankYou = this.state.thankYou;
 
         return (
-            <div className="contactUs-container">
-                <div className="contactUs-section">
-                    <Buffer size="30"/>
-                    <div><h1 className="title-section">CONTACT US</h1></div>
-                    <Buffer size="30"/>
-                    <Grid fluid>
-                        <Row >
-                            <Col md={6}>
-                                <div className="contactUs-description-text">
-                                <p className="description-section-big">
-                                        Your thoughts are important to us! Please send us any questions, requests, or feedback to improve our service!
-                                </p></div>
-                            </Col>
-                            <Col md={6}>
-                                <form onSubmit={this.sendMessage}>
-                                    <FieldGroup
-                                        id="formName"
-                                        type="text"
-                                        label="Name"
-                                        placeholder="Enter name"
-                                        value = {this.state.name}
-                                        onChange={this.setName}
-                                    />
-                                    <FieldGroup
-                                        id="formEmail"
-                                        type="email"
-                                        label="Email address"
-                                        placeholder="Enter email"
-                                        value = {this.state.email}
-                                        onChange={this.setEmail}
-                                    />
-                                    <FormGroup controlId="formControlsTextarea">
-                                        <ControlLabel>Message</ControlLabel>
-                                        <FormControl componentClass="textarea"
-                                                     placeholder="Write Here!"
-                                                     value = {this.state.message}
-                                                     onChange={this.setMessage}/>
-                                    </FormGroup>
-                                    <Button type="submit" className="blogEntry-readMore" bsStyle="danger" block>
-                                        {isLoading ? 'Sending...' : thankYou ? "Thank You!" : "Send"}
-                                    </Button>
-                                </form>
-                            </Col>
-                        </Row>
-                    </Grid>
-                    <Buffer size="30"/>
+
+            <div className="master-contain">
+                <div className="contain">
+                    <div className="navcolor"/>
+                    <div className="section">
+                        <Buffer size="30"/>
+                        <div className="title">CONTACT US</div>
+                        <Buffer size="30"/>
+                        <div className="content">
+                            <Grid fluid>
+                                <Row >
+                                    <Col md={6}>
+                                        <div id="contact-us-text">
+                                            <p className="description-section-big">
+                                                Your thoughts are important to us! Please send us any questions, requests, or feedback to improve our service!
+                                            </p></div>
+                                    </Col>
+                                    <Col md={6}>
+                                        <form onSubmit={this.sendMessage}>
+                                            <FieldGroup
+                                                id="formName"
+                                                type="text"
+                                                label="Name"
+                                                placeholder="Enter name"
+                                                value = {this.state.name}
+                                                onChange={this.setName}
+                                            />
+                                            <FieldGroup
+                                                id="formEmail"
+                                                type="email"
+                                                label="Email address"
+                                                placeholder="Enter email"
+                                                value = {this.state.email}
+                                                onChange={this.setEmail}
+                                            />
+                                            <FormGroup controlId="formControlsTextarea">
+                                                <ControlLabel>Message</ControlLabel>
+                                                <FormControl componentClass="textarea"
+                                                             placeholder="Write Here!"
+                                                             value = {this.state.message}
+                                                             onChange={this.setMessage}/>
+                                            </FormGroup>
+                                            <Button type="submit" className="blogEntry-readMore" bsStyle="danger" block>
+                                                {isLoading ? 'Sending...' : thankYou ? "Thank You!" : "Send"}
+                                            </Button>
+                                        </form>
+                                    </Col>
+                                </Row>
+                            </Grid>
+                        </div>
+                        <Buffer size="30"/>
+                    </div>
                 </div>
             </div>
+
         );
     }
 }

@@ -1,0 +1,42 @@
+.master-contain{
+    position : relative;
+    width:100%;
+    top:-75px;
+    border : none;
+}
+
+.contain{
+    background:#ffffff ;
+    min-height : calc(100vh - 110px);
+    width: 100%;
+}
+
+.navcolor{
+    background : #303030;
+    height : 75px;
+    width : 100%;
+}
+
+.section{
+    background : transparent;
+    width : 100%;
+    max-width : 2000px;
+    margin : auto;
+    justify-content: center;
+    padding: 3em;
+}
+
+.title{
+    align-self: center;
+    text-align : center;
+    width : 100%;
+    max-width : 2000px;
+    margin : auto;
+}
+
+.content{
+    align-self:center;
+    width : 100%;
+    max-width : 2000px;
+    margin :auto;
+}

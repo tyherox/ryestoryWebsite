@@ -69,7 +69,7 @@ class NavbarInstance extends Component{
                     <LinkContainer to="/about">
                         <NavItem>ABOUT</NavItem>
                     </LinkContainer>
-                    <LinkContainer to="/blog">
+                    <LinkContainer to="/blog/">
                         <NavItem >BLOG</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/contact">

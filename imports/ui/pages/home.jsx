@@ -60,7 +60,7 @@ export default class App extends Component {
                                     <Modal.Header closeButton>
                                     </Modal.Header>
                                     <Modal.Body>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY" frameBorder="0" allowFullScreen ></iframe>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY" frameBorder="0" allowFullScreen ></iframe>
                                     </Modal.Body>
                                     <Modal.Footer>
                                         <Button onClick={this.closeVideo.bind(this)}>Close</Button>
@@ -135,67 +135,65 @@ export default class App extends Component {
                 <Buffer size="20"/>
                 <div className='home-features-section'>
                     <Grid fluid>
-                            <Row>
-                                <Col md={12}>
-                                    <h1 className="title-section">FEATURES</h1>
-                                    <Buffer size ="20"/>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col md={4}>
-                                    <div className = 'home-features-image full-screen-image'/>
-                                    <br/>
-                                    <div className = 'subtitle-section'>
-                                        <p>Full-Screen</p>
-                                    </div>
-                                    <p className="description-section center-block home-features-text">The maximum full view at your disposal. Need something else? You can always minimize!</p>
-                                </Col>
-                                <Col md={4}>
-                                    <div className = 'home-features-image syntax-image'/>
-                                    <br/>
-                                    <div className = 'subtitle-section'>
-                                        <p>Syntax</p>
-                                    </div>
-                                    <p className="description-section center-block home-features-text">Trestle supports Markdown! Mark it down.</p>
-                                </Col>
-                                <Col md={4}>
-                                    <div className = 'home-features-image export-image'/>
-                                    <br/>
-                                    <div className = 'subtitle-section'>
-                                        <p>Export</p>
-                                    </div>
-                                    <p className="description-section center-block home-features-text">Export your work into docx, PDF, txt, and rtf files.</p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col md={4}>
-                                    <div className = 'home-features-image sentence-focus-image'/>
-                                    <br/>
-                                    <div className = 'subtitle-section'>
-                                        <p>Sentence Focus</p>
-                                    </div>
-                                    <p className="description-section center-block home-features-text">Focus on one sentence by graying everything else out... details will be uncovered!</p>
-
-                                </Col>
-                                <Col md={4}>
-                                    <div className = 'home-features-image themes-image'/>
-                                    <br/>
-                                    <div className = 'subtitle-section'>
-                                        <p>Themes</p>
-                                    </div>
-                                    <p className="description-section center-block home-features-text">Choose a polished theme to add yet another level of personalization.</p>
-
-                                </Col>
-                                <Col md={4}>
-                                    <div className = 'home-features-image save-image'/>
-                                    <br/>
-                                    <div className = 'subtitle-section'>
-                                        <p>Auto-Save</p>
-                                    </div>
-                                    <p className="description-section center-block home-features-text">Forgot to save? Don’t worry, it’s all there.</p>
-                                </Col>
-                            </Row>
-                        </Grid>
+                        <Row>
+                            <Col md={12}>
+                                <h1 className="title-section">FEATURES</h1>
+                                <Buffer size ="20"/>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md={4}>
+                                <div className = 'home-features-image full-screen-image'/>
+                                <br/>
+                                <div className = 'subtitle-section'>
+                                    <p>Full-Screen</p>
+                                </div>
+                                <p className="description-section center-block home-features-text">The maximum full view at your disposal. Need something else? You can always minimize!</p>
+                            </Col>
+                            <Col md={4}>
+                                <div className = 'home-features-image syntax-image'/>
+                                <br/>
+                                <div className = 'subtitle-section'>
+                                    <p>Syntax</p>
+                                </div>
+                                <p className="description-section center-block home-features-text">Trestle supports Markdown! Mark it down.</p>
+                            </Col>
+                            <Col md={4}>
+                                <div className = 'home-features-image export-image'/>
+                                <br/>
+                                <div className = 'subtitle-section'>
+                                    <p>Export</p>
+                                </div>
+                                <p className="description-section center-block home-features-text">Export your work into docx, PDF, txt, and rtf files.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md={4}>
+                                <div className = 'home-features-image sentence-focus-image'/>
+                                <br/>
+                                <div className = 'subtitle-section'>
+                                    <p>Sentence Focus</p>
+                                </div>
+                                <p className="description-section center-block home-features-text">Focus on one sentence by graying everything else out... details will be uncovered!</p>
+                            </Col>
+                            <Col md={4}>
+                                <div className = 'home-features-image themes-image'/>
+                                <br/>
+                                <div className = 'subtitle-section'>
+                                    <p>Themes</p>
+                                </div>
+                                <p className="description-section center-block home-features-text">Choose a polished theme to add yet another level of personalization.</p>
+                            </Col>
+                            <Col md={4}>
+                                <div className = 'home-features-image save-image'/>
+                                <br/>
+                                <div className = 'subtitle-section'>
+                                    <p>Auto-Save</p>
+                                </div>
+                                <p className="description-section center-block home-features-text">Forgot to save? Don’t worry, it’s all there.</p>
+                            </Col>
+                        </Row>
+                    </Grid>
                 </div>
 
                 <div className='home-subscribe-section'>
@@ -203,7 +201,7 @@ export default class App extends Component {
                         <Buffer size="20"/>
                         <h1 className='title-section'>SUBSCRIBE</h1>
                         <Buffer size="10"/>
-                        <p className="subtitle-section">Subscribe to hear the latest news about Trestle!</p>
+                        <p className="subtitle-section">Subscribe to be notified when it's out!</p>
                         <Buffer/>
                         <form action="https://docs.google.com/a/ryestory.com/forms/d/e/1FAIpQLSc5UsKau_hGxbkUrH2PxXTBoaBh9BGyIWzHtBCQxK3hroO08w/formResponse"
                               target="iframe1"
@@ -211,8 +209,8 @@ export default class App extends Component {
                               id="mG61Hd">
                             <input type = "email" placeholder ="Email : "
                             className = 'home-email-box subtitle-section ' required></input>
-
-                           <br/> <br/><Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
+                            <br/><br/>
+                            <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
                         </form>
                     </div>
                 </div>

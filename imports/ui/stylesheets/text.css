@@ -1,38 +1,33 @@
 .title-brandname{
-    font-size : 300%;
+    font-size : 500%;
     font-weight : bold;
-    text-align : center;
-    padding: 5px;
-}
-.description-brandname{
-    font-size : 175%;
-    text-align : center;
     padding: 5px;
 }
 
 .title-section{
     font-size : 250%;
-
-    text-align: center;
     padding: 5px;
 
 }
 .title-section-small{
     font-size: 200%;
-
-    text-aling : center;
     padding: 5px;
 }
+
+.description-brandname{
+    font-size : 175%;
+}
+
 .subtitle-section{
     font-size : 140%;
+    padding: 5px;
+}
 
-    padding: 5px;
-}
-.description-section{
-    font-size : 110%;
-    padding: 5px;
-}
 .description-section-big{
-    font-size :125%;
+    font-size :130%;
     padding: 5px;
+}
+
+.description-section{
+    font-size : 125%;
 }

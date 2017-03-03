@@ -20,7 +20,8 @@ export default class App extends Component {
                     <Buffer size="30"/>
                         <div ><h1 className="title-section">OUR STORY</h1></div>
 
-                                <p className='description-section'><Buffer/>
+                                <p className='description-section'>
+                                    <br/><br/>
                                     Seemingly small and insignificant, Rye is a hearty, nutritious crop that is an ingredient to many of our foods. We believe there’s a lot of similarities when it comes to how we see our ideas. Although we often dismiss our ideas as insignificant, with the proper nurturing and development, ideas can become powerful influential stories. And aren’t all stories worth telling?
                                     <br/><br/>
                                     That’s what we aspire to do at the end of the day. Help tell stories.
@@ -30,29 +31,6 @@ export default class App extends Component {
 
                     </div>
                 </div>
-                {/* <div className='aboutOurMembersArea'>
-                    <div className='aboutOurMembersText'>
-                        <Buffer size="45"/>
-                        <div className="contactUs-title">Our Team</div>
-                        <Buffer/>
-                        <Grid fluid>
-                            <Row>
-                                <Col md={3}>image</Col>
-                                <Col md={3}>discription</Col>
-                                <Col md={3}>image</Col>
-                                <Col md={3}>discription</Col>
-                            </Row>
-                            <Row>
-                                <Col md={3}>image</Col>
-                                <Col md={3}>discription</Col>
-                                <Col md={3}>image</Col>
-                                <Col md={3}>discription</Col>
-                            </Row>
-                        </Grid>
-                        <Buffer size="45"/>
-                    <Buffer/>
-                    </div>
-                </div>  */}
             </div>
         );
     }

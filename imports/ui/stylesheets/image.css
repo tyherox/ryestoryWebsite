@@ -10,12 +10,6 @@
     background: url('/assets/layout.png') no-repeat center center;
     background-size: contain;
 }
-.logoIconPng{
-
-}
-.ryeLogoPng{
-
-}
 .save-image{
     background: url('/assets/Save.png') no-repeat center center;
     background-size: contain;
@@ -48,8 +42,8 @@
     background-size: cover;
 }
 
-.whiteLayoutPng{
-    background : url('/assets/whiteLayout.png') no-repeat center center;
+.blackLayoutPng{
+    background : url('/assets/blackLayout.png') no-repeat center center;
     background-size: contain;
 }
 
@@ -58,8 +52,8 @@
     background-size: contain;
 }
 
-.whiteSheets2Png{
-    background : url('/assets/whiteSheets2.png') no-repeat center center;
+.blackSheets2Png{
+    background : url('/assets/blackSheets2.png') no-repeat center center;
     background-size: contain;
 }
 

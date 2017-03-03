@@ -97,7 +97,6 @@ export default class Blog extends Component {
             entry = this.state.blogs.find(function(elem){
                 return elem["date"] == self.props.params.entries;
             })
-            console.log("FOUND:", entry);
             entry = <Entry date={entry.date}
                            title={entry.title}
                            content={entry.content}

@@ -17,6 +17,7 @@ export default class App extends Component {
         this.setEmail = this.setEmail.bind(this);
         this.setMessage = this.setMessage.bind(this);
         this.sendMessage = this.sendMessage.bind(this);
+
     }
 
     setName(event){

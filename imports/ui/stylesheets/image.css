@@ -1,28 +1,22 @@
 .export-image{
-    background: url('/assets/Export.png') no-repeat center center;
+    background: url('/assets/export.png') no-repeat center center;
     background-size: contain;
 }
 .full-screen-image{
-    background: url('/assets/Fullscreen.png') no-repeat center center;
+    background: url('/assets/fullScreen.png') no-repeat center center;
     background-size: contain;
 }
 .layoutPng{
     background: url('/assets/layout.png') no-repeat center center;
     background-size: contain;
 }
-.logoIconPng{
-
-}
-.ryeLogoPng{
-
-}
 .save-image{
-    background: url('/assets/Save.png') no-repeat center center;
+    background: url('/assets/save.png') no-repeat center center;
     background-size: contain;
     margin-top: 5%;
 }
 .sentence-focus-image{
-    background: url('/assets/SentenceFocus.png') no-repeat center center;
+    background: url('/assets/sentenceFocus.png') no-repeat center center;
     background-size: contain;
     margin-top: 5%;
 }
@@ -31,11 +25,11 @@
     background-size: contain;
 }
 .syntax-image{
-    background: url('/assets/Syntax.png') no-repeat center center;
+    background: url('/assets/syntax.png') no-repeat center center;
     background-size: contain;
 }
 .themes-image{
-    background: url('/assets/Themes.png') no-repeat center center;
+    background: url('/assets/themes.png') no-repeat center center;
     background-size: contain;
     margin-top: 5%;
 }
@@ -48,8 +42,8 @@
     background-size: cover;
 }
 
-.whiteLayoutPng{
-    background : url('/assets/whiteLayout.png') no-repeat center center;
+.blackLayoutPng{
+    background : url('/assets/blackLayout.png') no-repeat center center;
     background-size: contain;
 }
 
@@ -58,8 +52,8 @@
     background-size: contain;
 }
 
-.whiteSheets2Png{
-    background : url('/assets/whiteSheets2.png') no-repeat center center;
+.blackSheets2Png{
+    background : url('/assets/blackSheets2.png') no-repeat center center;
     background-size: contain;
 }
 

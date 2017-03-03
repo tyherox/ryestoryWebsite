@@ -1,40 +1,34 @@
 .home-page{
     position: relative;
-    top: -75px;
     width: 100%;
     background: #FFFFFF;
+}
+
+.home-intro{
+    height:100%;
+    background-color: white;
+    color: #303030;
+}
+
+.home-sections-header{
+    border: none;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
 }
 
 .home-header-section{
     width: 100%;
     border: none;
-    height: calc(75vh + 150px);
+    height: 50vh;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
 }
 
-.home-trestle-playButton{
-    background: url('/assets/playButton.png') no-repeat center center;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    opacity: .75;
-}
-
-.home-trestle-playButton:hover{
-    opacity: 1;
-}
-
 .home-header-text{
-    color: White;
+    width: 100%;
+    color: inherit;
     text-align: center;
     line-height: normal;
     margin: 0!important;
@@ -43,15 +37,14 @@
 
 .home-trestle-description-section{
     justify-content: center;
-    background-color: #FFFFFF;
     width: 100%;
     max-width: 2000px;
     display: block;
     margin : auto;
 }
+
 .home-trestle-description-text{
     text-align: center;
-    background-color: #FFFFFF;
     width: 100%;
     max-width: 500px;
     display: block;
@@ -61,12 +54,70 @@
 
 .home-description-section{
     justify-content : center;
-    background-color : #FFFFFF;
     width : 100%;
+    height: auto;
     max-width : 1100px;
     margin : auto;
     display:block;
 }
+
+.home-sections{
+    border: none;
+    min-height: 50vh;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.home-section0{
+    min-height: calc(100vh - 75px);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+}
+
+.home-section1{
+    min-height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+}
+
+.home-section2{
+    min-height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display:block;
+    background-color: white;
+    color: #303030;
+}
+
+.home-section3{
+    min-height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display:block;
+    background-color: #3498db;
+    color: white;
+}
+
 .home-description-image{
 
     align-self:center;
@@ -82,11 +133,13 @@
 
 .home-description-text-left{
     margin-left : 2vw;
+    text-align: left;
 }
 
 
 .home-description-text-right{
     margin-right : 2vw;
+    text-align: left;
 }
 
 
@@ -94,6 +147,7 @@
     text-align : center;
     justify-content : center;
     background-color : #FFFFFF;
+    color: #303030;
     width : 100%;
     max-width : 1000px;
     margin : auto;
@@ -107,15 +161,14 @@
 }
 
 .home-features-text{
-    width : 80%;
+    max-width : 350px;
 }
 
 .home-subscribe-section{
     position: relative;
-    background: #303030;
+    background: #3498db;
     border : none;
     height : 50vh;
-    top: 75px;
     display : flex;
     justify-content : center;
     width : 100%;
@@ -123,21 +176,33 @@
     margin : auto;
 }
 
-
 .home-subscribe-text{
-    color: White;
     text-align: center;
     line-height: normal;
     margin: 0!important;
     padding: 5px;
+    color: white;
 }
 
-.home-email-button{
+.home-button {
+    border: white solid;
+    border-radius: 5px;
+    outline: none;
     clear: both;
-    font-size: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
+    font-size: 150%;
+    padding: 10px 25px;
     position: relative;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: white;
+}
+
+.home-button:hover{
+    background-color: white;
+    color: #3498db;
 }
 
 .home-email-box{
@@ -146,9 +211,55 @@
     outline: none;
     width: 100%;
     min-width: 100px;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid #dbdbdb;
+    color: white;
+}
+
+.videoPreview{
+    opacity: .85;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.videoPreview:hover{
+    opacity: 1;
 }
 
 .ghost{
     display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .home-header-text {
+        text-align: left;
+    }
+    .home-header-section{
+        margin-top: 0;
+        min-height: calc(100vh - 75px);
+    }
+    .home-section0{
+        min-height: calc(100vh - 75px);
+    }
+    .home-sections{
+        min-height: 100vh;
+    }
+    .home-sections-header{
+        min-height: calc(100vh - 75px);
+    }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: antiquewhite;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: antiquewhite;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: antiquewhite;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: antiquewhite;
 }

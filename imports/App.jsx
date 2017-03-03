@@ -43,17 +43,9 @@ export default class App extends Component {
 
 class NavbarInstance extends Component{
 
-    resetHome(state){
-        console.log(state);
-        var style = document.getElementById("versatileStyle");
-        console.log(style);
-        if(state) style.innerHTML = ".home-page{top: 0px;}";
-        else style.innerHTML = ".home-page{top: -75px;}";
-    }
-
     render(){
         return(
-        <Navbar inverse collapseOnSelect onToggle={this.resetHome.bind(this)}>
+        <Navbar inverse collapseOnSelect>
             <Navbar.Header>
 
                 <Navbar.Brand>

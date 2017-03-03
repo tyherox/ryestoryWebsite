@@ -4,14 +4,21 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import {Grid, Row, Col,Image, Button,Modal} from 'react-bootstrap'
+import {Grid, Row, Col,Image, Modal, Button} from 'react-bootstrap'
 import Buffer from '../components/buffer.js';
+import Scroll from 'react-scroll';
 
 export default class App extends Component {
 
     constructor(props){
         super(props);
         this.state = {showVideo: false};
+    }
+
+    toSubscribe() {
+        var subscription = ReactDOM.findDOMNode(this.refs.subscribe);
+        console.log(subscription);
+        Scroll.animateScroll.scrollTo(subscription.offsetTop);
     }
 
     handleSubmit() {
@@ -37,103 +44,105 @@ export default class App extends Component {
         return (
             <div className="home-page">
                 <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
-                <div className = 'home-header-section homeBgImagePng'>
-                    <div className = 'home-header-text'>
-                        <h1 className="title-brandname">TRESTLE</h1>
-                        <br/>
-                        <p className="description-brandname">How do you organize your desk?</p>
-                    </div>
-                </div>
                 <div className='home-trestle-description-section'>
                     <Grid fluid>
-                        <Row >
-                            <Buffer size ="20"/>
-                            <div className='home-trestle-description-text'>
-                                <h1 className='title-section'>TRESTLE?</h1>
-                                <Buffer/>
-                                <p className='description-section'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
-                                    <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
-                                    <br/><br/>You’ve never seen anything like this.</p>
-                                <Buffer/>
-                                <button className="home-trestle-playButton" onClick = {this.showVideo.bind(this)}></button>
-                                <Modal show={this.state.showVideo} onHide={this.closeVideo.bind(this)}>
-                                    <Modal.Header closeButton>
-                                    </Modal.Header>
-                                    <Modal.Body>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY" frameBorder="0" allowFullScreen ></iframe>
-                                    </Modal.Body>
-                                    <Modal.Footer>
-                                        <Button onClick={this.closeVideo.bind(this)}>Close</Button>
-                                    </Modal.Footer>
-                                </Modal>
-                            </div>
-                            <Buffer size="20"/>
-                        </Row>
-                        <hr/>
-                        <Row>
-                            <Buffer size="30"/>
+                        <Row className = 'home-section0'>
                             <div className ='home-description-section'>
-                                <Col md={8}>
-                                    <div className="home-description-image">
-                                    <Image src="/assets/whiteSheets.png" responsive />
+                                <Col md={5}>
+                                    <div className = 'home-header-section'>
+                                        <div className = 'home-header-text'>
+                                            <h1 className="title-brandname">TRESTLE</h1>
+                                            <br/>
+                                            <p className="description-brandname">How do you organize your desk?</p>
+                                            <br />
+                                            <button className = 'home-button' onClick={this.toSubscribe.bind(this)}>Sign me up!</button>
+                                        </div>
                                     </div>
                                 </Col>
 
-                                <Col md={4}>
-                                    <div className="home-description-text home-description-text-left">
+                                <Col md={7} className = "home-sections-header">
+                                    <div className = 'home-header-text'>
+                                        <Image src="/assets/videoPreview.png" responsive className="videoPreview" onClick={this.showVideo.bind(this)}/>
+                                        <Modal show={this.state.showVideo} onHide={this.closeVideo.bind(this)}>
+                                            <Modal.Header closeButton>
+                                            </Modal.Header>
+                                            <Modal.Body>
+                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY?autoplay=1" frameBorder="0" allowFullScreen  ></iframe>
+                                            </Modal.Body>
+                                            <Modal.Footer>
+                                                <Button onClick={this.closeVideo.bind(this)}>Close</Button>
+                                            </Modal.Footer>
+                                        </Modal>
+                                    </div>
+                                </Col>
+                            </div>
+                        </Row>
+                        <Row className = "home-intro">
+                            <Buffer size="30"/>
+                            <div className='home-trestle-description-text'>
+                                <h1 className='title-section'>TRESTLE?</h1>
+                                <br/><br/>
+                                <p className='description-section'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
+                                    <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
+                                    <br/><br/>You’ve never seen anything like this.</p>
+                            </div>
+                            <Buffer size="30"/>
+                        </Row>
+                        <Row className = 'home-section1'>
+                            <div className ='home-description-section'>
+                                <Col md={8} className = "home-sections">
+                                    <div className="home-description-image">
+                                    <Image src="/assets/blackSheets.png" responsive />
+                                    </div>
+                                </Col>
+
+                                <Col md={4} className = "home-sections">
+                                    <div className="home-header-text home-description-text home-description-text-left">
                                         <p className="title-section-small">CLEAN SHEETS</p>
+                                        <br/>
                                         <p className="description-section">Trestle provides Sheets that are ready to be filled with great ideas. Multi-tasking? Open up multiple Sheets to work on multiple sections or projects! Using Markdown? Simply choose your syntax on the Sheets options!
                                             <br/><br/>And don’t worry about losing your work -- it’s all auto-saved.</p>
                                     </div>
                                 </Col>
-
                             </div>
                         </Row>
-                        <Buffer size="30"/>
-                        <hr/>
-                        <Row>
-                            <Buffer size="30"/>
+                        <Row className = 'home-section2'>
                             <div className ='home-description-section'>
-                                <Col md={8} mdPush={4}>
+                                <Col md={8} mdPush={4} className = "home-sections">
                                     <div className="home-description-image">
                                         <Image src="/assets/whiteWidgets.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={4} mdPull={8}>
-                                    <div className="home-description-text home-description-text-right">
+                                <Col md={4} mdPull={8} className = "home-sections">
+                                    <div className="home-header-text home-description-text home-description-text-right">
                                         <p className="title-section-small">DELIGHTFUL WIDGETS</p>
+                                        <br/>
                                         <p className="description-section">Clustered menu bars are never pretty to look at. Trestle places tools into delightful widgets that you can add and remove at anytime. No more crawling through complex menus and sub menus just to find a tool! And from dictionary to task-management widgets, you’ll find Trestle is more than just a pretty face.</p>
                                     </div>
                                 </Col>
                             </div>
                         </Row>
-                        <Buffer size="30"/>
-                        <hr/>
-                        <Row>
-                            <Buffer size="30"/>
+                        <Row  className = 'home-section3'>
                             <div className ='home-description-section'>
-                                <Col md={8}>
-                                    <div className="home-description-image">
-                                        <Image src="/assets/whiteLayout.png" responsive />
+                                <Col md={8} className = "home-sections">
+                                    <div className="home-description-image" >
+                                        <Image src="/assets/blackLayout.png" responsive />
                                     </div>
                                 </Col>
-                                <Col md={4}>
-                                    <div className="home-description-text home-description-text-left">
+                                <Col md={4} className = "home-sections">
+                                    <div className="home-header-text home-description-text home-description-text-left">
                                         <p className="title-section-small">FLEXIBLE LAYOUT</p>
+                                        <br/>
                                         <p className="description-section">Need a simple writing space? A word processing powerhouse? No sweat. Drag and drop widgets to build the layout you need and save multiple layouts so you use them later. Oh, and want to focus on a particular task? Click the hid button to hide all your unpinned widgets.
                                             <br/><br/>Build whatever layout you prefer in a giffy!</p>
                                     </div>
                                 </Col>
                             </div>
-
                         </Row>
-
-                        <Buffer size="30"/>
-                        <hr/>
                     </Grid>
                 </div>
-                <Buffer size="20"/>
                 <div className='home-features-section'>
+                    <br/>
                     <Grid fluid>
                         <Row>
                             <Col md={12}>
@@ -195,8 +204,8 @@ export default class App extends Component {
                         </Row>
                     </Grid>
                 </div>
-
-                <div className='home-subscribe-section'>
+                <br/>
+                <div className='home-subscribe-section' ref="subscribe">
                     <div className = 'home-subscribe-text'>
                         <Buffer size="20"/>
                         <h1 className='title-section'>SUBSCRIBE</h1>
@@ -210,7 +219,7 @@ export default class App extends Component {
                             <input type = "email" placeholder ="Email : "
                             className = 'home-email-box subtitle-section ' required></input>
                             <br/><br/>
-                            <Button bsStyle="danger" type="submit" className = 'home-email-button' ref="submitButton">Subscribe</Button>
+                            <button type="submit" className = 'home-button' ref="submitButton">Subscribe</button>
                         </form>
                     </div>
                 </div>

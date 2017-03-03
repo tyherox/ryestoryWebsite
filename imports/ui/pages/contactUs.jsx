@@ -97,9 +97,9 @@ export default class App extends Component {
                                                      value = {this.state.message}
                                                      onChange={this.setMessage}/>
                                     </FormGroup>
-                                    <Button type="submit" className="blogEntry-readMore" bsStyle="danger" block>
+                                    <button type="submit" className="contact-button" bsStyle="danger" block>
                                         {isLoading ? 'Sending...' : thankYou ? "Thank You!" : "Send"}
-                                    </Button>
+                                    </button>
                                 </form>
                             </Col>
                         </Row>

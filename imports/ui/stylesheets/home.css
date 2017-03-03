@@ -6,11 +6,11 @@
 
 .home-intro{
     height:100%;
-    background-color: #3498db;
-    color: #f5f5f5;
+    background-color: white;
+    color: #303030;
 }
 
-.home-sections{
+.home-sections-header{
     border: none;
     min-height: 50vh;
     display: flex;
@@ -28,6 +28,7 @@
 
 .home-header-text{
     width: 100%;
+    color: inherit;
     text-align: center;
     line-height: normal;
     margin: 0!important;
@@ -60,6 +61,28 @@
     display:block;
 }
 
+.home-sections{
+    border: none;
+    min-height: 50vh;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.home-section0{
+    min-height: calc(100vh - 75px);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+}
+
 .home-section1{
     min-height: 100vh;
     margin-top: auto;
@@ -68,7 +91,8 @@
     padding-top: 25px;
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #3498db;
+    color: white;
 }
 
 .home-section2{
@@ -78,8 +102,8 @@
     padding-bottom: 25px;
     padding-top: 25px;
     display:block;
-    background-color: #303030;
-    color: #f5f5f5;
+    background-color: white;
+    color: #303030;
 }
 
 .home-section3{
@@ -90,7 +114,8 @@
     padding-bottom: 25px;
     padding-top: 25px;
     display:block;
-    background-color: #ffffff;
+    background-color: #3498db;
+    color: white;
 }
 
 .home-description-image{
@@ -122,6 +147,7 @@
     text-align : center;
     justify-content : center;
     background-color : #FFFFFF;
+    color: #303030;
     width : 100%;
     max-width : 1000px;
     margin : auto;
@@ -140,10 +166,9 @@
 
 .home-subscribe-section{
     position: relative;
-    background: #303030;
+    background: #3498db;
     border : none;
     height : 50vh;
-    top: 75px;
     display : flex;
     justify-content : center;
     width : 100%;
@@ -152,19 +177,19 @@
 }
 
 .home-subscribe-text{
-    color: White;
     text-align: center;
     line-height: normal;
     margin: 0!important;
     padding: 5px;
+    color: white;
 }
 
 .home-button {
-    border: #303030 solid;
+    border: white solid;
     border-radius: 5px;
     outline: none;
     clear: both;
-    font-size: 20px;
+    font-size: 150%;
     padding: 10px 25px;
     position: relative;
     background-color: transparent;
@@ -172,11 +197,12 @@
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    color: white;
 }
 
 .home-button:hover{
-    background-color: #303030;
-    color: white;
+    background-color: white;
+    color: #3498db;
 }
 
 .home-email-box{
@@ -185,7 +211,21 @@
     outline: none;
     width: 100%;
     min-width: 100px;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid #dbdbdb;
+    color: white;
+}
+
+.videoPreview{
+    opacity: .85;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.videoPreview:hover{
+    opacity: 1;
 }
 
 .ghost{
@@ -198,9 +238,28 @@
     }
     .home-header-section{
         margin-top: 0;
-        height: 100vh;
+        min-height: calc(100vh - 75px);
+    }
+    .home-section0{
+        min-height: calc(100vh - 75px);
     }
     .home-sections{
         min-height: 100vh;
     }
+    .home-sections-header{
+        min-height: calc(100vh - 75px);
+    }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: antiquewhite;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: antiquewhite;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: antiquewhite;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: antiquewhite;
 }

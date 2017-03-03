@@ -22,7 +22,7 @@ export default class BlogEntry extends Component {
                     <div className="blogEntry-date">{this.props.date}</div>
                     <div className="blogEntry-previewText">{this.props.preview}</div>
                     <Buffer size="5"/>
-                    <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog/'+ this.props.date +'')}>Read More</Button>
+                    <button className="blog-button"onClick={()=>browserHistory.push('/blog/'+ this.props.date +'')}>Read More</button>
                 </div>
             )
         }
@@ -34,7 +34,7 @@ export default class BlogEntry extends Component {
                     <Buffer size="5"/>
                     <div className="blogEntry-content">{this.props.content}</div>
                     <Buffer/>
-                    <Button className="blogEntry-readMore" bsStyle="danger" onClick={()=>browserHistory.push('/blog')}>Back</Button>
+                    <button className="blog-button" onClick={()=>browserHistory.push('/blog')}>Back</button>
                 </div>
             )
         }

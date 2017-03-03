@@ -4,7 +4,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import {Grid, Row, Col,Image, Button,Modal} from 'react-bootstrap'
+import {Grid, Row, Col,Image, Modal, Button} from 'react-bootstrap'
 import Buffer from '../components/buffer.js';
 import Scroll from 'react-scroll';
 
@@ -46,29 +46,42 @@ export default class App extends Component {
                 <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
                 <div className='home-trestle-description-section'>
                     <Grid fluid>
-                        <Row className ='home-description-section'>
-                            <Col md={5}>
-                                <div className = 'home-header-section'>
-                                    <div className = 'home-header-text'>
-                                        <h1 className="title-brandname">TRESTLE</h1>
-                                        <br/>
-                                        <p className="description-brandname">How do you organize your desk?</p>
-                                        <br />
-                                        <button className = 'home-button' onClick={this.toSubscribe.bind(this)}>Sign me up!</button>
+                        <Row className = 'home-section0'>
+                            <div className ='home-description-section'>
+                                <Col md={5}>
+                                    <div className = 'home-header-section'>
+                                        <div className = 'home-header-text'>
+                                            <h1 className="title-brandname">TRESTLE</h1>
+                                            <br/>
+                                            <p className="description-brandname">How do you organize your desk?</p>
+                                            <br />
+                                            <button className = 'home-button' onClick={this.toSubscribe.bind(this)}>Sign me up!</button>
+                                        </div>
                                     </div>
-                                </div>
-                            </Col>
+                                </Col>
 
-                            <Col md={7} className = "home-sections">
-                                <div className = 'home-header-text'>
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY" frameBorder="0" allowFullScreen ></iframe>
-                                </div>
-                            </Col>
+                                <Col md={7} className = "home-sections-header">
+                                    <div className = 'home-header-text'>
+                                        <Image src="/assets/videoPreview.png" responsive className="videoPreview" onClick={this.showVideo.bind(this)}/>
+                                        <Modal show={this.state.showVideo} onHide={this.closeVideo.bind(this)}>
+                                            <Modal.Header closeButton>
+                                            </Modal.Header>
+                                            <Modal.Body>
+                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY?autoplay=1" frameBorder="0" allowFullScreen  ></iframe>
+                                            </Modal.Body>
+                                            <Modal.Footer>
+                                                <Button onClick={this.closeVideo.bind(this)}>Close</Button>
+                                            </Modal.Footer>
+                                        </Modal>
+                                    </div>
+                                </Col>
+                            </div>
                         </Row>
                         <Row className = "home-intro">
                             <Buffer size="30"/>
                             <div className='home-trestle-description-text'>
                                 <h1 className='title-section'>TRESTLE?</h1>
+                                <br/><br/>
                                 <p className='description-section'>Trestle is an upcoming writing app that feels like your virtual desk. Craft your writing space like you would on a real desk - by simply moving things around.
                                     <br/><br/>Blaze through school papers with a compact multitasking layout or calmly illustrate your thoughts on a serene minimalist background.
                                     <br/><br/>You’ve never seen anything like this.</p>
@@ -128,7 +141,6 @@ export default class App extends Component {
                         </Row>
                     </Grid>
                 </div>
-                <hr/>
                 <div className='home-features-section'>
                     <br/>
                     <Grid fluid>
@@ -192,7 +204,7 @@ export default class App extends Component {
                         </Row>
                     </Grid>
                 </div>
-
+                <br/>
                 <div className='home-subscribe-section' ref="subscribe">
                     <div className = 'home-subscribe-text'>
                         <Buffer size="20"/>
@@ -207,7 +219,7 @@ export default class App extends Component {
                             <input type = "email" placeholder ="Email : "
                             className = 'home-email-box subtitle-section ' required></input>
                             <br/><br/>
-                            <Button bsStyle="danger" type="submit" className = 'home-button' ref="submitButton">Subscribe</Button>
+                            <button type="submit" className = 'home-button' ref="submitButton">Subscribe</button>
                         </form>
                     </div>
                 </div>

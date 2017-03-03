@@ -9,17 +9,17 @@ body {
 }
 
 @font-face {
-    font-family: openSans;
-    src: url(/open-sans/OpenSans-Regular.ttf);
+    font-family: Lato-Regular;
+    src: url(/open-sans/Lato-Regular.ttf);
 }
 
 @font-face {
-    font-family: openSans-Bold;
-    src: url(/open-sans/OpenSans-Bold.ttf);
+    font-family: Lato-Bold;
+    src: url(/open-sans/Lato-Bold.ttf);
 }
 
 h1, h2, p, ul, li {
-    font-family: openSans;
+    font-family: Lato-Regular;
 }
 
 .masterContainer{
@@ -31,7 +31,7 @@ h1, h2, p, ul, li {
 
 
 b{
-  font-family: openSans-Bold;
+  font-family: Lato-Bold;
 }
 
 .center-block{

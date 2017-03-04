@@ -92,7 +92,7 @@ export default class App extends Component {
                             <div className ='home-description-section'>
                                 <Col md={8} className = "home-sections">
                                     <div className="home-description-image">
-                                    <Image src="/assets/blackSheets.png" responsive />
+                                    <Image src="/assets/whiteSheets.png" responsive />
                                     </div>
                                 </Col>
 
@@ -110,7 +110,7 @@ export default class App extends Component {
                             <div className ='home-description-section'>
                                 <Col md={8} mdPush={4} className = "home-sections">
                                     <div className="home-description-image">
-                                        <Image src="/assets/whiteWidgets.png" responsive />
+                                        <Image src="/assets/blackWidgets.png" responsive />
                                     </div>
                                 </Col>
                                 <Col md={4} mdPull={8} className = "home-sections">
@@ -126,7 +126,7 @@ export default class App extends Component {
                             <div className ='home-description-section'>
                                 <Col md={8} className = "home-sections">
                                     <div className="home-description-image" >
-                                        <Image src="/assets/blackLayout.png" responsive />
+                                        <Image src="/assets/whiteLayout.png" responsive />
                                     </div>
                                 </Col>
                                 <Col md={4} className = "home-sections">

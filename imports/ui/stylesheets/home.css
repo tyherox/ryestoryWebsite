@@ -168,11 +168,11 @@
     position: relative;
     background: #3498db;
     border : none;
-    height : 50vh;
     display : flex;
     justify-content : center;
     width : 100%;
     margin : auto;
+    margin-bottom: 15px;
 }
 
 .home-subscribe-text{

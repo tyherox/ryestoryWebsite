@@ -11,7 +11,7 @@
 
   Meteor.startup(() => {
     render(
-        <Router history={browserHistory}>
+        <Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
             <Route path="/" component={App}>
                 <IndexRedirect to={"/home"}/>
                 <Route path="home" component={Home}/>

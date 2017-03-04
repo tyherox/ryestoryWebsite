@@ -10,12 +10,12 @@ body {
 
 @font-face {
     font-family: Lato-Regular;
-    src: url(/open-sans/Lato-Regular.ttf);
+    src: url(assets/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: Lato-Bold;
-    src: url(/open-sans/Lato-Bold.ttf);
+    src: url(assets/Lato-Bold.ttf);
 }
 
 h1, h2, p, ul, li {

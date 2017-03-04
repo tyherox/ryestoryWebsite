@@ -1,7 +1,6 @@
 .title-brandname{
     font-size : 500%;
-    font-family: Lato-Bold;
-    padding: 5px;
+    font-family: Lato-Regular;
 }
 
 .title-section{
@@ -16,7 +15,7 @@
 }
 
 .description-brandname{
-    font-family: Lato-Bold;
+    font-family: Lato-Regular;
     font-size : 175%;
 }
 

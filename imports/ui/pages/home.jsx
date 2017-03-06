@@ -62,20 +62,13 @@ export default class App extends Component {
 
                                 <Col md={7} className = "home-sections-header">
                                     <div className = 'home-header-text'>
-                                        <Image src="/assets/videoPreview.png" responsive className="videoPreview" onClick={this.showVideo.bind(this)}/>
-                                        <Modal show={this.state.showVideo} onHide={this.closeVideo.bind(this)}>
-                                            <Modal.Header closeButton>
-                                            </Modal.Header>
-                                            <Modal.Body>
-                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY?autoplay=1" frameBorder="0" allowFullScreen  ></iframe>
-                                            </Modal.Body>
-                                            <Modal.Footer>
-                                                <Button onClick={this.closeVideo.bind(this)}>Close</Button>
-                                            </Modal.Footer>
-                                        </Modal>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY?autoplay=1" frameBorder="0" allowFullScreen  ></iframe>
                                     </div>
                                 </Col>
                             </div>
+                        </Row>
+                        <Row>
+
                         </Row>
                         <Row className = "home-intro">
                             <Buffer size="30"/>

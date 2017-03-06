@@ -69,16 +69,12 @@ export default class App extends Component {
                         </Row>
                         <Row className = "home-gogo">
                             <div className ='home-gogoSection'>
-                                <Col md={7}>
+                                <Col md={8}>
                                     <div className = 'home-gogoTextSection'>
-                                        <div className = 'home-header-text'>
-                                            <h1 className='home-gogoFont'>Fund us now on Indiegogo!</h1>
+                                        <div className = 'home-gogoText'>
+                                            <a className='home-gogoFont' href="https://igg.me/at/rs-trestle/16192070">Fund us now on Indiegogo!</a>
                                         </div>
                                     </div>
-                                </Col>
-
-                                <Col md={5} className = "home-gogoTextSection">
-                                    <div className="home-gogoImage"></div>
                                 </Col>
                             </div>
                         </Row>

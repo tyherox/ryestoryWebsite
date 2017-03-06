@@ -223,6 +223,37 @@
     transition: all .3s;
 }
 
+.home-gogoLogo{
+    height:10em;
+}
+
+.home-gogo{
+    background-color: #303030;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.home-gogoSection{
+    height: 10vh;
+}
+
+.home-gogoTextSection{
+    display: flex;
+    justify-content: center;
+}
+
+.home-gogoFont{
+    text-transform: uppercase;
+    font-size: 250%;
+    text-align: center;
+}
+
+.home-gogoImage{
+    background: url('/assets/gogo1.png') no-repeat center center;
+    background-size: contain;
+}
+
 .videoPreview:hover{
     opacity: 1;
 }
@@ -247,6 +278,9 @@
     }
     .home-sections-header{
         min-height: calc(100vh - 75px);
+    }
+    .home-gogoFont{
+        text-align: right;
     }
 }
 

@@ -67,8 +67,20 @@ export default class App extends Component {
                                 </Col>
                             </div>
                         </Row>
-                        <Row>
+                        <Row className = "home-gogo">
+                            <div className ='home-gogoSection'>
+                                <Col md={7}>
+                                    <div className = 'home-gogoTextSection'>
+                                        <div className = 'home-header-text'>
+                                            <h1 className='home-gogoFont'>Fund us now on Indiegogo!</h1>
+                                        </div>
+                                    </div>
+                                </Col>
 
+                                <Col md={5} className = "home-gogoTextSection">
+                                    <div className="home-gogoImage"></div>
+                                </Col>
+                            </div>
                         </Row>
                         <Row className = "home-intro">
                             <Buffer size="30"/>

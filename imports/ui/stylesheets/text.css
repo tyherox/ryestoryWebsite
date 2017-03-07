@@ -1,0 +1,30 @@
+.title-brandname{
+    font-size : 500%;
+}
+
+.title-section{
+    font-size : 250%;
+    padding: 5px;
+}
+.title-section-small{
+    font-size: 200%;
+    padding: 5px;
+}
+
+.description-brandname{
+    font-size : 175%;
+}
+
+.subtitle-section{
+    font-size : 140%;
+    padding: 5px;
+}
+
+.description-section-big{
+    font-size :130%;
+    padding: 5px;
+}
+
+.description-section{
+    font-size : 125%;
+}

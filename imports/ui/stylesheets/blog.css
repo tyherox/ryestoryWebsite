@@ -1,0 +1,88 @@
+#blog-container{
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    min-height: calc(100vh - 110px);
+    width: 100%;
+}
+
+#blog-entries{
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#blog-title{
+    font-size: 250%;
+    text-align: center;
+}
+
+#blog-subTitle{
+    font-size: 150%;
+    color: gray;
+    text-align: center;
+}
+
+
+.blogEntry-preview{
+    margin-bottom: 50px;
+}
+
+.blogEntry-previewText{
+    display: block;
+    font-size: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blogEntry-content{
+    display: block;
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+.blogEntry-header{
+    font-size: 225%;
+    text-align: left;
+}
+
+.blogEntry-title{
+    font-size: 170%;
+
+    text-align: left;
+}
+
+.blogEntry-date{
+    color: gray;
+    margin-top: -10px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.blog-button {
+    border: #FFA330 solid;
+    border-radius: 5px;
+    outline: none;
+    clear: both;
+    font-size: 100%;
+    padding: 5px 10px;
+    position: relative;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #FFA330;
+}
+
+.blog-button:hover{
+    background-color: #FFA330;
+    color: white;
+}

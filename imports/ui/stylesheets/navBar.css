@@ -1,3 +1,26 @@
-.homeLink{
-    color: #F5F5F5;
+
+.container{
+    width:calc(100% - 10px)!important;
+    margin-left: 10px;
+}
+
+.navBarLogo {
+    position: relative;
+    float: left !important;
+    display: block;
+    background: url('/assets/ryeLogo.png') no-repeat center center;
+    background-size: contain;
+    width:100px;
+    margin-left: 2vw!important;
+}
+
+.navBarLogo:hover{
+    cursor: pointer!important;
+}
+
+.navBarButton {
+    margin-top: auto;
+    height: 100%;
+    padding: 50px;
+    float: right;
 }

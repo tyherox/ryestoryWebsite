@@ -3,15 +3,21 @@
  */
 
 import React, { Component, PropTypes } from 'react';
-import { Router, Route, IndexRoute, IndexLink, Link } from 'react-router'
-import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Panel} from 'react-bootstrap'
-import {LinkContainer} from 'react-router-bootstrap'
 
 import'./ui/stylesheets/navBar.css'
 import './ui/stylesheets/global.css'
 import './ui/stylesheets/bootstrap.css'
 import './ui/stylesheets/home.css'
 import './ui/stylesheets/footer.css'
+import './ui/stylesheets/text.css'
+import './ui/stylesheets/image.css'
+import './ui/stylesheets/blog.css'
+import './ui/stylesheets/about.css'
+import './ui/stylesheets/contactUs.css'
+import './ui/stylesheets/align.css'
+import {Navbar, NavItem, Nav} from 'react-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap'
+import {browserHistory} from 'react-router';
 
 export default class App extends Component {
 
@@ -20,14 +26,16 @@ export default class App extends Component {
     }
 
     render() {
+
         return (
             <div className = "masterContainer">
-                <NavbarInstance />
+                <NavbarInstance/>
                 {this.props.children}
-                <Panel className = 'footer'>
-                    <h3 className = 'footerLogo'>Ryestory</h3>
-                    <p className = 'footerContact'>Contact us</p>
-                </Panel>
+                <div className = 'footer'>
+                    <div className = 'footerLogo' />
+                    <a className = 'footer-facebook' href="https://www.facebook.com/StoryWithRye/"/>
+                    <a className = 'footer-email' href = 'mailto:andre.kim@ryestory.com' />
+                </div>
             </div>
         );
     }
@@ -35,22 +43,34 @@ export default class App extends Component {
 
 class NavbarInstance extends Component{
 
-    componentDidMount(){
-        console.log("mounted navbar");
-    }
-
     render(){
         return(
-            <Navbar collapseOnSelect fluid>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <LinkContainer to="/">
-                            <a>Ryestory</a>
-                        </LinkContainer>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-            </Navbar>
+        <Navbar inverse collapseOnSelect>
+            <Navbar.Header>
+
+                <Navbar.Brand>
+                        <div className = 'navBarLogo' onClick={()=>browserHistory.push('/')}></div>
+                </Navbar.Brand>
+                <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+                <Nav pullRight >
+                    <LinkContainer to="/home">
+                        <NavItem>HOME</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to="/about">
+                        <NavItem>ABOUT</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to="/blog/">
+                        <NavItem >BLOG</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to="/contact">
+                        <NavItem>CONTACT US</NavItem>
+                    </LinkContainer>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+
         );
     }
 }

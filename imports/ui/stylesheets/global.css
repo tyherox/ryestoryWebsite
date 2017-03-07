@@ -1,19 +1,39 @@
 /*Global CSS declarations*/
 *{
-
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: green;
+    background-color: #303030;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(assets/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(assets/Lato-Bold.ttf);
 }
 
 h1, h2, p, ul, li {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Lato-Regular;
 }
 
 .masterContainer{
     box-shadow: none;
     border: none;
     outline: none;
-    background-color: #5D4037;
+    background-color: #303030;
+}
+
+
+b{
+  font-family: Lato-Bold;
+}
+
+.center-block{
+    text-align: center;
 }

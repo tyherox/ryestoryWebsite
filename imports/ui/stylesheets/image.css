@@ -1,0 +1,63 @@
+.export-image{
+    background: url('/assets/export.png') no-repeat center center;
+    background-size: contain;
+}
+.full-screen-image{
+    background: url('/assets/fullScreen.png') no-repeat center center;
+    background-size: contain;
+}
+.layoutPng{
+    background: url('/assets/layout.png') no-repeat center center;
+    background-size: contain;
+}
+.save-image{
+    background: url('/assets/save.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 5%;
+}
+.sentence-focus-image{
+    background: url('/assets/sentenceFocus.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 5%;
+}
+.sheetsPng{
+    background: url('/assets/sheets.png') no-repeat center center;
+    background-size: contain;
+}
+.syntax-image{
+    background: url('/assets/syntax.png') no-repeat center center;
+    background-size: contain;
+}
+.themes-image{
+    background: url('/assets/themes.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 5%;
+}
+.widgets-image{
+    background: url('/assets/Widgets.png') no-repeat center center;
+    background-size: contain;
+}
+.homeBgImagePng{
+    background : url('/assets/homeBackgroundImage.png') no-repeat center center;
+    background-size: cover;
+}
+
+.blackLayoutPng{
+    background : url('/assets/blackLayout.png') no-repeat center center;
+    background-size: contain;
+}
+
+.whiteSheetsPng{
+    background : url('/assets/whiteSheets.png') no-repeat center center;
+    background-size: contain;
+}
+
+.blackSheets2Png{
+    background : url('/assets/blackSheets2.png') no-repeat center center;
+    background-size: contain;
+}
+
+.whiteWidgetsPng{
+    background : url('/assets/whiteWidgets.png') no-repeat center center;
+    background-size: contain;
+}

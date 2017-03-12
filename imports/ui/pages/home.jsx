@@ -56,6 +56,9 @@ export default class App extends Component {
                                             <p className="description-brandname">How do you organize your desk?</p>
                                             <br />
                                             <button className = 'home-button' onClick={this.toSubscribe.bind(this)}>Sign me up!</button>
+                                            <button className = 'home-button'>
+                                             Try it out!
+                                            </button>
                                         </div>
                                     </div>
                                 </Col>
@@ -206,6 +209,19 @@ export default class App extends Component {
                     </Grid>
                 </div>
                 <br/>
+                <div className = 'home-demo-section'>
+                    <div className = 'home-demo-text'>
+                        <Buffer size= "20"/>
+                        <h1 className= "title-section"> TRY IT OUT YOURSELF!</h1>
+                        <p className="subtitle-section">Change your layout by dragging and resizing your blocks</p>
+                        <!-- This is where you put the demo !-->
+                        <p className="subtitle-section">Download the Alpha to try out the actual working prototype!</p>
+                        <Buffer size= "20"/>
+                        <button className = 'home-button'>
+                        Download the Alpha!
+                        </button>
+                    </div>
+                </div>
                 <div className='home-subscribe-section' ref="subscribe">
                     <div className = 'home-subscribe-text'>
                         <Buffer size="20"/>

@@ -214,7 +214,7 @@ export default class App extends Component {
                         <Buffer size= "20"/>
                         <h1 className= "title-section"> TRY IT OUT YOURSELF!</h1>
                         <p className="subtitle-section">Change your layout by dragging and resizing your blocks</p>
-                        <!-- This is where you put the demo !-->
+                        {/* A JSX comment */}
                         <p className="subtitle-section">Download the Alpha to try out the actual working prototype!</p>
                         <Buffer size= "20"/>
                         <button className = 'home-button'>

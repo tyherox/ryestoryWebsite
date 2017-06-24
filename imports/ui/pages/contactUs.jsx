@@ -114,7 +114,6 @@ export default class App extends Component {
 
 class FieldGroup extends Component{
 
-
     render(){
         return (
             <FormGroup controlId={this.props.id}>

@@ -2,7 +2,6 @@
     background: white;
     min-height: calc(100vh - 110px);
     width: 100%;
-
 }
 
 .about-ourstory-section{
@@ -14,8 +13,8 @@
     justify-content: center;
     padding-bottom: 30px;
 }
-.about-ourstory-text{
 
+.about-ourstory-text{
     vertical-align: middle;
     line-height: normal;
     text-align: center;

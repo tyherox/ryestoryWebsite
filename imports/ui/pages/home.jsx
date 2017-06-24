@@ -43,12 +43,11 @@ export default class App extends Component {
     render() {
         return (
             <div className="home-page">
-                <iframe className='ghost' name="iframe1" onLoad={this.handleSubmit.bind(this)}></iframe>
                 <div className='home-trestle-description-section'>
                     <Grid fluid>
                         <Row className = 'home-section0'>
                             <div className ='home-description-section'>
-                                <Col md={5}>
+                                <Col md={12}>
                                     <div className = 'home-header-section'>
                                         <div className = 'home-header-text'>
                                             <h1 className="title-brandname">TRESTLE</h1>
@@ -57,12 +56,6 @@ export default class App extends Component {
                                             <br />
                                             <button className = 'home-button' onClick={this.toSubscribe.bind(this)}>Sign me up!</button>
                                         </div>
-                                    </div>
-                                </Col>
-
-                                <Col md={7} className = "home-sections-header">
-                                    <div className = 'home-header-text'>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NpAMWhVnDqY?autoplay=1" frameBorder="0" allowFullScreen  ></iframe>
                                     </div>
                                 </Col>
                             </div>

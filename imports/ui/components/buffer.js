@@ -12,7 +12,7 @@ export default class Buffer extends Component {
             buffer.style.padding = this.props.size + 'px';
         }
         else {
-            buffer.style.padding = 15 + 'px';
+            buffer.style.padding = 10 + 'px';
         }
     }
 

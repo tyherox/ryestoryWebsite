@@ -1,39 +1,86 @@
 /*Global CSS declarations*/
+
+html{
+    background-color: #F2F0F0;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #303030;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F0F0;
 }
 
-@font-face {
-    font-family: Lato-Regular;
-    src: url(assets/Lato-Regular.ttf);
-}
-
-@font-face {
-    font-family: Lato-Bold;
-    src: url(assets/Lato-Bold.ttf);
-}
-
-h1, h2, p, ul, li {
-    font-family: Lato-Regular;
+br{
+    margin-bottom: 25px;
 }
 
 .masterContainer{
     box-shadow: none;
     border: none;
     outline: none;
-    background-color: #303030;
+    background-color: #F2F0F0;
 }
 
-
-b{
-  font-family: Lato-Bold;
-}
-
-.center-block{
+.page{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 15px 15px;
+    background-color: #F2F0F0;
     text-align: center;
+
+}
+
+.page-section{
+    position: relative;
+    margin: 15px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.staggeredBuffer{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.staggeredBuffer-top{
+    margin-top: 150px;
+}
+
+.staggeredBuffer-bottom{
+    margin-bottom: 150px;
+}
+
+.staggeredMedia{
+    position: absolute;
+    bottom: -50px;
+    height: 25%;
+    width: 25%;
+}
+
+.img-responsive{
+    margin: auto;
+}
+
+@media (max-width: 750px){
+
+    br{
+        margin-bottom: 10px;
+    }
+
+    .page{
+        max-width: 600px;
+        padding: 70px 15px 15px;
+    }
+
+    .page-section{
+        margin: 10px;
+        padding: 25px 15px 15px;
+    }
 }

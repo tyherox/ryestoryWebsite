@@ -1,0 +1,14 @@
+.btn-primary{
+    background: #EA005E!important;
+    font-size: 1.5em;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: #c60050!important;
+}
+
+.btn-primary:active{
+    background: #ae0046!important;
+}
+

@@ -12,7 +12,7 @@ export default class Buffer extends Component {
     }
 
     render() {
-        var downloads = 0;
+        var downloads = 2;
 
         return(
             <div className="tracker">

@@ -1,0 +1,22 @@
+.tracker{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #EA005E;
+}
+
+.tracker-progress{
+    position: relative;
+    height: 125px;
+    width: 50px;
+    background: gainsboro;
+    margin: auto;
+}
+
+.tracker-progressBar{
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 50px;
+    transition: all 5s;
+    background: #EA005E;
+}

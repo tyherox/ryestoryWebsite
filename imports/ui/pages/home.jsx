@@ -6,6 +6,7 @@ import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import {Grid, Row, Col, Image, ResponsiveEmbed, Button} from 'react-bootstrap'
 import Buffer from '../components/buffer.js';
+import Tracker from '../components/tracker.js';
 import Scroll from 'react-scroll';
 
 export default class App extends Component {
@@ -15,6 +16,19 @@ export default class App extends Component {
 
     }
 
+    componentDidMount(){
+        var image = this.refs.image,
+            height = image.getBoundingClientRect().height;
+
+        image.style.bottom = -(height / 2) + "px";
+
+        image.addEventListener("resize", function(){
+            var image = this.refs.image,
+                height = image.getBoundingClientRect().height;
+            image.style.bottom = -(height / 2) + "px";
+        });
+    }
+
     render() {
 
         var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
@@ -22,25 +36,29 @@ export default class App extends Component {
 
         return (
             <div className="page">
-                <Grid fluid>
+                <Grid className="home" fluid>
 
                     <Row className="page-section">
 
-                        <div className="staggeredBuffer">
+                        <div className="staggeredBuffer-top staggeredBuffer-bottom">
                             <h1>Trestle</h1>
                             <h2>The Craftable Writing Environment</h2>
                             <Buffer/>
                             <Buffer/>
-                            <Button bsStyle="primary">Download for Mac</Button>
+                            {isMac ? <Button bsStyle="primary" href="https://gum.co/FOkJh">Download for Mac</Button> :
+                                <Button bsStyle="primary">Browse from your Mac </Button>}
                             <Buffer/>
-                            <p style={{color: "#c60050"}}>First 100 copies are free!</p>
+                            {isMac ? <p style={{color: "#c60050"}}>First 100 copies are free! (type earlybird)</p> :
+                                <p style={{color: "#c60050"}}>Windows Version Coming Soon</p>}
+                            <Buffer/>
+                            <Buffer/>
                         </div>
 
-                        {/*<div className="staggeredMedia">
-                            <ResponsiveEmbed a16by9 style={{border: "solid 2px pink"}}>
-                                <embed src="/assets/trestle1.png" />
+                        <div className="staggeredMedia" ref="image">
+                            <ResponsiveEmbed a16by9 style={{border: "solid 2px #EA005E"}}>
+                                <embed src="/assets/demo.png" />
                             </ResponsiveEmbed>
-                        </div>*/}
+                        </div>
                     </Row>
 
                     <Row className="page-section" >
@@ -55,7 +73,9 @@ export default class App extends Component {
                         </Col>
 
                         <Col xs={12} md={4} style={{marginBottom: "25px", backgroundPosition: "center"}}>
-                            <Image src="/assets/placeHolder.png" responsive />
+                            <div className="image-size">
+                                <Image src="/assets/customize.png" responsive />
+                            </div>
                             <h3>
                                 Customizable
                             </h3>
@@ -64,7 +84,9 @@ export default class App extends Component {
                             </p>
                         </Col>
                         <Col xs={12} md={4} style={{marginBottom: "25px", backgroundPosition: "center"}}>
-                            <Image src="/assets/placeHolder.png" responsive />
+                            <div className="image-size">
+                                <Image src="/assets/minimal.png" responsive />
+                            </div>
                             <h3>
                                 Minimalism
                             </h3>
@@ -73,7 +95,9 @@ export default class App extends Component {
                             </p>
                         </Col>
                         <Col xs={12} md={4} style={{marginBottom: "25px", backgroundPosition: "center" }}>
-                            <Image src="/assets/placeHolder.png" responsive />
+                            <div className="image-size">
+                                <Image src="/assets/save.png" responsive />
+                            </div>
                             <h3>
                                 Auto-Save
                             </h3>
@@ -81,22 +105,36 @@ export default class App extends Component {
                                 Forgot to save? Don’t worry, it’s all there.
                             </p>
                         </Col>
-                        <Col xs={12} md={12} className="staggeredBuffer-bottom" />
+
                     </Row>
 
                     <Row className="page-section">
-                        <Col md={12} className="staggeredBuffer">
+                        <Col md={12}>
+
+                            <Buffer/>
+                            <Tracker/>
+                            <Buffer/>
+
                             <p className="description">
-                                Trestle is a writing app that feels like your virtual desk.
-                                Craft your writing space like you would on a real desk
-                                - by simply moving things around.
+                                New features will be added when download milestones are met.
+                                Help bring new features to Trestle by telling your friends!
                             </p>
 
                             <Buffer/>
                             <Buffer/>
                             <Buffer/>
 
-                            <Button bsStyle="primary">Download for Mac</Button>
+                            {isMac ? <Button bsStyle="primary" href="https://gum.co/FOkJh">Download for Mac</Button> :
+                                <Button bsStyle="primary">Browse from your Mac </Button>}
+                            <Buffer/>
+                            {isMac ? <p style={{color: "#c60050"}}>First 100 copies are free! (type earlybird)</p> :
+                                <p style={{color: "#c60050"}}>Windows Version Coming Soon</p>}
+
+                            <Buffer/>
+                            <Buffer/>
+                            <Buffer/>
+
+                            <p style={{color: "gray"}}>Made with ♥ by Ryestory</p>
                         </Col>
                     </Row>
 

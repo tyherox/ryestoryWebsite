@@ -39,7 +39,7 @@ br{
 .page-section{
     position: relative;
     margin: 15px;
-    padding: 30px;
+    padding: 0px 5% 10%;
     background-color: white;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
 }
@@ -76,13 +76,15 @@ br{
     }
 
     .page{
-        max-width: 600px;
-        padding: 70px 15px 15px;
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .page-section{
         margin: 10px;
-        padding: 40px 30px 15px;
+        padding: 0px 5% 10%;
     }
 
     .staggeredBuffer-top{

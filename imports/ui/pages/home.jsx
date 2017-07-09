@@ -48,7 +48,7 @@ export default class App extends Component {
                             {isMac ? <Button bsStyle="primary" href="https://gum.co/FOkJh">Download for Mac</Button> :
                                 <Button bsStyle="primary">Browse from your Mac </Button>}
                             <Buffer/>
-                            {isMac ? <p style={{color: "#c60050"}}>First 100 copies are free! (type earlybird)</p> :
+                            {isMac ? <p style={{color: "#c60050"}}>First 100 copies are free! <br/> (use "earlybird" offer code)</p> :
                                 <p style={{color: "#c60050"}}>Windows Version Coming Soon</p>}
                             <Buffer/>
                             <Buffer/>
@@ -63,13 +63,19 @@ export default class App extends Component {
 
                     <Row className="page-section" >
                         <Col md={12} className="staggeredBuffer-top">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
                             <p className="description">
                                 Trestle is a writing app that feels like your virtual desk.
                                 Craft your writing space like you would on a real desk
                                 - by simply moving things around.
                             </p>
-                            <Buffer/>
-                            <Buffer/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
                         </Col>
 
                         <Col xs={12} md={4} style={{marginBottom: "25px", backgroundPosition: "center"}}>
@@ -102,16 +108,19 @@ export default class App extends Component {
                                 Auto-Save
                             </h3>
                             <p>
-                                Forgot to save? Don’t worry, it’s all there.
+                                I mean, we do live in the 21st century...
                             </p>
                         </Col>
 
+                        <br/><br/>
                     </Row>
 
                     <Row className="page-section">
                         <Col md={12}>
 
-                            <Buffer/>
+                            <br/>
+                            <br/>
+                            <br/>
                             <Tracker/>
                             <Buffer/>
 
@@ -127,7 +136,7 @@ export default class App extends Component {
                             {isMac ? <Button bsStyle="primary" href="https://gum.co/FOkJh">Download for Mac</Button> :
                                 <Button bsStyle="primary">Browse from your Mac </Button>}
                             <Buffer/>
-                            {isMac ? <p style={{color: "#c60050"}}>First 100 copies are free! (type earlybird)</p> :
+                            {isMac ? <p style={{color: "#c60050"}}>First 100 copies are free! <br/> (use "earlybird" offer code)</p> :
                                 <p style={{color: "#c60050"}}>Windows Version Coming Soon</p>}
 
                             <Buffer/>

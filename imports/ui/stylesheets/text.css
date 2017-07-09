@@ -17,13 +17,13 @@ b{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 700;
 }
 
 h2{
     position: relative;
-    font-size: 3rem;
+    font-size: 3.0rem;
 }
 
 h3{
@@ -36,29 +36,8 @@ p{
 }
 
 .description{
-    font-size: 2.00em;
+    font-size: 2.0em;
 }
 
 @media (max-width: 750px){
-
-    h1{
-        font-size: 4rem;
-    }
-
-    h2{
-        font-size: 2.5rem;
-    }
-
-    h3{
-        font-size: 2rem;
-        color: darkgrey;
-    }
-
-    p {
-        font-size: 1.50rem;
-    }
-
-    .description{
-        font-size: 1.50em;
-    }
 }
